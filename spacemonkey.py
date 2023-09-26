@@ -1,6 +1,23 @@
-print("Welcome to Space Monkey")
-print("")
-print("Jararis was a special trained monkey that can talk and who was trained to go to space. One day he was needed for a space mission to save humanity but his ship crashed down.")
+import os 
+import random
+
+print("Welcome to Space Monkey!\n")
+print("You are expected to solve puzzles and riddles to progress through different stages of the game and eventually win.")
+print("Please note that your choices will influence the storyline so don't hesitate to play again!")
+print("Now let the story begin, have fun!\n")
+while True: 
+    print("Do you want to start?")
+    print("A: Yes")
+    print("B: No")
+
+    Start_Answer = input("").capitalize()
+
+    if Start_Answer == "A": 
+        break
+    else: 
+        print("That's fine, whenever you're ready.\n")
+
+os.system('cls' if os.name == 'nt' else 'clear')
 
 max_fuel = 100
 max_health = 100
@@ -8,7 +25,9 @@ max_health = 100
 fuel = max_fuel
 health = max_health
 
-#Level 1: 
+#Level 1: Unknown planet
+print("Jararis was a special trained monkey that can talk and who was trained to go to space.\nOne day he was needed for a space mission to get a special rock to save humanity but when he finally got the item,\na astroid hit his ship and he crashed down.")
+print("Jararis was stranded on a unknown planet. You need to find a way home")
 while True:
     print("What should I do?")
     print("A: Get out the ship.")
@@ -55,7 +74,7 @@ while True:
     elif question_ == "B":
         print()
         break
-#Level 4:
+#Level 4:Elysium Prime
 
 #Level 5: Banana Haven
 print("Wow this planet looks beautifull. Look at those trees and waterfalls!")
@@ -63,9 +82,9 @@ print("But wait...")
 print("Are these my...my family???")
 
 
-#Level 6:
+#Level 6:Letter world
 
-#Level 7:
+#Level 7: Aqualandia
 
 #Level 8: Jamaica
 print("After a save landing you have finally arrived back on earth, but it looks a bit weird...")
@@ -94,6 +113,27 @@ while True:
 
 #Level 9: Rotterdam
 print("You are coming closer to the base but first you need to go trough Rotterdam South")
+print("In the distance you see someone walking towards you.")
+print("It's 2 euro man!!!")
+print("He immediately asked you if you have 2 euro")
+while True:
+    print("What should I do?")
+    print("A: Give him 2 euro.")
+    print("B: Say you don't have money.")
+    question_ = input("").capitalize()
+
+    if question_ == "A":
+        print("Yes here 2 euro.")
+        print("Thank you for the 2 euro. Is there something I can help you with?")
+        while True:
+            print("A:")
+            print("B:")
+            break
+        break
+    elif question_ == "B":
+        print("No sorry I don't have money.")
+        break
+
 
 #Level 10: 
 print("You finally made it to the secret space station base but it looks like you lost the keys.")
@@ -109,6 +149,7 @@ while True:
         break
     else:
         print("Access denied. Incorrect passcode.")
+print("You are inside")        
 
 #The end
 print("The end. Thank you for playing Space Monkey!")
