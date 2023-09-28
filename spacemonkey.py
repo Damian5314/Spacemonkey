@@ -246,14 +246,102 @@ while True:
     print("What will you do?")
     print("A: Try to get back your own ship.")
     print("B: Try to steal the alien ship.")
-    question_ = input("").capitalize()
+    Lvl3_Question_One = input("").capitalize()
 
-    if question_ == "A":
-        print()
+    if Lvl3_Question_One == "A":
+        print("You go back on the alien ship to get your ship back")
+        print("(You just escaped, you really don't know what you want... -_-)")
         break
-    elif question_ == "B":
-        print()
+    elif Lvl3_Question_One == "B":
+        print("Jararis: Hmm I feel like I'm forgetting something, but screw that.")
         break
+
+
+outer_loop = True
+while outer_loop:
+    if Lvl3_Question_One == "A":
+        print("You hop into the vents of the spaceship")
+        print("As you're silently crawling through the vents you see a set of lasers moving towards you.")
+        print("Probably a defence mechanism designed for sneaky monkeys like you...")
+        print("Anyways THINK FAST! You look up and see a box, when you open it you see 4 wires.")
+        print("Which wire will you snap in order to stop the lazers from coming towards you?")
+        print("A: Red")
+        print("B: Green")
+        print("C: Blue")
+        print("D: Yellow")
+        Lvl3_Question_TwoA = input("").capitalize()
+        while True:
+            if Lvl3_Question_TwoA == "D":
+                print("Well arent you a lucky monkey :D")
+                print("The lasers turned off!")
+                outer_loop = False
+                break
+                        
+            elif Lvl3_Question_TwoA == "A" or Lvl3_Question_TwoA == "B" or Lvl3_Question_TwoA == "C":
+                print("R.I.P. The wires moved even faster and you didn't move in time...")
+                print("Try again.")
+                break
+
+            else:
+                print("Are you even trying to survive?")
+                print("Pick between A, B, C OR D!")
+                break
+
+    elif Lvl3_Question_One == "B":
+        print("You silently sneak over towards the alien ship")
+        print("When you get the you see that there is a lock on the ships door")
+        print("It seems as if you need to translate their language to yours...")
+        print("Language: .. .----. -- / .- / ... - ..- .--. .. -.. / .-.. .. - - .-.. . / -- --- -. -.- . -.-- -.-.--")
+        print("Jararis: Hmmm, this sure does look like morse code")
+        Lvl3_Question_TwoB = input("Please enter the password: ").upper()
+        while True:
+            if Lvl3_Question_TwoB == "I'M A STUPID LITTLE MONKEY!":
+                print("Nice! The door unlocked and you fly off without any problems!")
+                outer_loop = False
+                break
+            else:
+                print("You took too long to unlock the door and got noticed by a guard")
+                print("You got shot, and died...")
+                break
+
+second_outer_loop = True
+while second_outer_loop:
+    if Lvl3_Question_TwoB == "I'M A STUPID LITTLE MONKEY!":
+        print("Suddenly you get a alarm message on the ships dashboard.")
+        print("Jararis: Ah yes I'm flying in a registered ship so I probably need some sort of identification.")
+        print("Two messages pop up:")
+        print("6x - 8 = 4x + 4")
+        Lvl3_Question_ThreeB = input("Please enter the password x = ")
+        while True:
+            if Lvl3_Question_ThreeB == "6":
+                print("Great, those dumb aliens fully believe you're one of them.")
+                print("You fly off into outer space...")
+                second_outer_loop = False
+                break
+            
+            elif Lvl3_Question_ThreeB < 6 or Lvl3_Question_ThreeB > 6:
+                print("Wrong answer")
+
+            else:
+                print("Come on this is basic math!")
+                print("What did you even do in math class...")
+
+    elif Lvl3_Question_TwoA == "D":
+        print("You climb through the vents towards the ships hangar")
+        print("You're finally reunited with your ship but see that there is a lock on the ship.")
+        print("It seems as if you need to translate their language to yours...")
+        print("Language: - ..- .- -. .- / -.- .- -. / -. .. . - / .-. .. .--- -.. . -. / .... .- .... .- -.-.--")
+        print("Jararis: Hmmm, this sure does look like morse code")
+        Lvl3_Question_ThreeA = input("Please enter the password: ").upper()
+        if Lvl3_Question_ThreeA == "TUANA KAN NIET RIJDEN HAHA!":
+            print("Jararis: Nice! The door unlocked, that was easier than I thought!")
+            print("I do wonder who Tuana is though...")
+            print("You fly off to the ")
+            break
+        else:
+            print("You took too long to unlock the door and got noticed by a guard")
+            print("You got shot, and died...")
+            break
 
 #Level 4: Elysium Prime
 print("In the toilet you bumped into a someone")
@@ -271,7 +359,18 @@ print("\nThe locals of Banana Haven seem apprehensive, eyeing you and Devano wit
 print("It appears that they are not thrilled to have outsiders on their beloved planet.")
 print("Jararis: Wow Devano my home is earth not this planet! And why are all these people looking mad at us?")
 print("Devano: To be honest with you Jararis, I am exhiled from this planet.")
+print("Jararis: Exhiled? What did you do to get exhiled?")
+print("Devano: My mother is the queen of this planet and yeah...")
+while True:
+    print("A: We must find your mother, maybe she can help me get off this planet again")
+    print("B: What do you mean with yeah?")
+    lvl5_question_one = input("").capitalize()
 
+    if lvl5_question_one == "A":
+        print()
+
+    elif lvl5_question_one == "B":
+        print()
 
 #Level 6: Letter world
 
@@ -312,7 +411,7 @@ while True:
         elif lvl8_question_two == "B":
             print("Djoemma: Nah wrong choice bossy")
             print("*BAM* *BAM*")
-            print("Oh no Devano got shot!!!")
+            print("Jararis: Oh no Devano got shot!!!")
             print("")
             break
     elif lvl8_question_one == "B":
@@ -320,7 +419,7 @@ while True:
         print("You find yourself in a bad neighbourhood")
         print("You hear people yelling and running away")
         print("*BAM* *BAM*")
-        print("Oh no Devano got shot!!!")
+        print("Jararis: Oh no Devano got shot!!!")
         break
 
 #Level 9: Rotterdam
