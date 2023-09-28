@@ -1,5 +1,12 @@
 import os 
 import random
+import time
+
+def slow_text_print(text):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(0.05)
+    print()
 
 print("Welcome to Space Monkey!\n")
 print("You are expected to solve puzzles and riddles to progress through different stages of the game and eventually win.")
@@ -8,7 +15,7 @@ print("Now let the story begin, have fun!\n")
 while True: 
     print("Do you want to start?")
     print("A: Yes")
-    print("B: No")
+    print("B: No") 
 
     Start_Answer = input("").capitalize()
 
@@ -26,8 +33,22 @@ fuel = max_fuel
 health = max_health
 
 #Level 1: Unknown planet
-print("Jararis was a special trained monkey that can talk and who was trained to go to space.\nOne day he was needed for a space mission to get a special rock to save humanity but when he finally got the item,\na astroid hit his ship and he crashed down.")
-print("Jararis was stranded on a unknown planet. You need to find a way home")
+print(
+    """Jararis was a special trained monkey that can talk and who was trained to go to space.
+One day he was needed for a space mission to get a special rock to save humanity but when he finally got the item,
+A astroid hit his ship and he crashed down.\n""")
+print("""Jararis: Huh, where am I? 
+My head is pounding, and my vision is blurry. I recall flashes of alarm signals and sudden turbulence. 
+The last memory I have is looking out the window of my spaceship as I crashed. 
+Now I lie here, surrounded by lush green leaves and the sweet scent of tropical flowers.
+This is not a place I am familiar with. It's as if I've landed on an entirely different world.
+I hear the sounds of unfamiliar creatures and see strange, colorful birds high in the trees. 
+Adrenaline rushes through me as I realize I am stranded on this mysterious tropical planet. 
+Survival is now my priority.
+I must find ways to protect myself and explore what this new world has to offer.
+I need to go as soon as possible from this planet to save humanity!!.
+The adventure begins.\n""")
+
 while True:
     print("What should I do?")
     print("A: Get out the ship.")
@@ -38,10 +59,10 @@ while True:
         print("You got out of the ship.")
         break
     elif question_one == "B":
-        print("I wont get anywhere if i sit down.")
+        print("Grrr I'm hungry, sitting down wont get me anywhere.")
 
 print("You look around and see that you're on a different planet.")
-print("Your rocket is also broken and you must find a way to fix it.")
+print("Your spaceship is also broken and you must find a way to fix it.")
 
 while True:
     print("Which way should I go?")
@@ -53,9 +74,168 @@ while True:
         print("You went to check in the forest.") 
         break
     elif question_two == "B":
-        print("I don't like sand. It's coarse and rough and irritating and it gets everywhere.")
+        print("Yararis: I don't like sand. It's coarse , irritating and it gets everywhere.")
+        
+print("When entering the forest , there was a bord that Jararis did not see : Forest of riddles!")
+print("""Jararis:The forest is like a giant playground filled with towering trees, so tall they seem to touch the sky.
+It smells like wet earth after rain, a refreshing scent. 
+There are flowers everywhere, some as big as my head! 
+There are flowers of all colors—red, yellow, blue—all over the place. It's like a rainbow on the ground.
+\n""")
+
+print("""Jararis: As I ventured through the lush forest, my eyes were drawn to a towering banana tree.
+Its slender trunk reached up into the sky, and at the top, a cluster of banana hung. 
+These bananas were enormous, larger than any I had ever come across in my life.                       
+I felt a mix of excitement and hunger.
+I wanted to taste the delicious banana and savor the sweet taste of it. 
+However, the bananas seemed unreachable, swaying high above the ground.\n""")
+
+print("""Beside the tree, I noticed a weathered wooden sign. 
+It was weathered and had some faded writing.
+I strained my eyes to read: "If you wish to feast on bananas delights, solve the puzzle and prove your might."
+ """)
+
+print("Answer at least two questions correctly to make the bananas fall!")
+
+play_count = 0
+
+while play_count < 4:
+    question_1 = ("Isabella needs 22 cartons of space-milk from the space-market."
+                  " She can only carry 4 cartons at a time.\nHow many trips does she need to make to the space-market?")
+    answer_1 = "6"
+
+    question_2 = ("Fernando is twelve years old, and he is three times as old as his brother. "
+                  "How old will Fernando be when he is twice as old as his brother?")
+    answer_2 = "8"
+
+    question_3 = "What has to be broken before you can use it?"
+    possible_answers_3 = ["egg", "grenade", "heart", "glow stick", "seal", "save", "crust", "seed", "rule",
+                          "word", "dream", "solution", "trust", "horse", "code", "habit", "bar"]
+
+    bananas_fallen = False
+
+    while True:
+        print("\nQuestion 1:", question_1)
+        user_answer_1 = input("Your answer for question 1: ").strip().lower()
+
+        print("\nQuestion 2:", question_2)
+        user_answer_2 = input("Your answer for question 2: ").strip().lower()
+
+        print("\nQuestion 3:", question_3)
+        user_answer_3 = input("Your answer for question 3: ").lower()
+
+        correct_answers = 0
+
+        if "6" in user_answer_1:
+            correct_answers += 1
+        if "8" in user_answer_2:
+            correct_answers += 1
+        if any(word in user_answer_3 for word in possible_answers_3):
+            correct_answers += 1
+
+        if correct_answers >= 2:
+            print("\nCongratulations! You answered at least two questions correctly.")
+            print("Bananas fall from the tree!")
+            print("""The correct answers were: q1: 6, q2: 8, and q3: egg, grenade, glow stick, seal, save, crust, seed, rule,
+                          word, dream, solution, trust, horse, code, habit, bar.""")
+            bananas_fallen = True
+            break
+        else:
+            print("\nUnfortunately, you didn't answer at least two questions correctly. Try again.")
+            play_count += 1
+
+    if bananas_fallen:
+        print("You now have enough food to last for a while on this planet.")
+        print("Jararis: Yeah, I did it! Bananas are coming to me, baby!!")
+        break
+
+    if play_count >= 4:
+        print("Unfortunately, you tried too many times. The answers were:")
+        print('q1: 6, q2: 8, q3: egg')
+        print('Lararis: Ahh i am so hungry')
+       
+   
+print("")
 
 #Level 2: Alien ship
+print("You've been abducted by aliens.")
+print("Jararis: I should probably try to escape since they're planning on keeping you imprisoned and steal the rock.")
+print("You look around you and see three items: Spoon, Toilet paper, Alien playboy magazine.")
+
+while True:
+    print("Which item will you try to use to escape.")
+    print("A: Spoon")
+    print("B: Toilet paper")
+    print("C: Alien playboy magazine")
+    Lvl2_Question_One = input("").capitalize()
+    if Lvl2_Question_One == "A":
+        print("You sharpen the edge of the spoon against the wall making it something like a knife.")
+        print("A Guard is stupid enough to walk close to the iron bars of your jailcell, think fast.")
+        print("What will you do?")
+        print("A: Pull him close and stab him in the neck")
+        print("B: Do nothing and rot in a cell for the rest of your life like a sad little monkey.")
+        Lvl2_Question_Two = input("").capitalize()
+        if Lvl2_Question_Two == "A":
+            print("HE MANAGED TO BLOCK IT, THINK FAST.")
+            print("A: Grab his gun and shoot him in the head.")
+            print("B: Grab his neck and choke him to death")
+            Lvl2_Question_Two_One = input("").capitalize()
+            if Lvl2_Question_Two_One == "A":
+                print("You try to shoot him but his gun was on safety mode,\n He runs off for backup and eventually you get publicly executed.")
+                print("Try an alternative")
+                break
+
+            elif Lvl2_Question_Two_One == "B":
+                print("You succesfully choke him to death,\nAllowing you to grab his keys and silently sneak of the Ship")
+                break
+
+            else:
+                print("Pick eiter A or B!!!!!!")
+
+        elif Lvl2_Question_Two == "B": 
+            print ("You stay in jail and rot away until you die...")
+            print("Let's try the more logical answer this time don't you think? :D\n(No but seriously, why would you let that chance slide ._.)")
+            break
+        
+        else:
+            print("Pick a or b")
+
+    elif Lvl2_Question_One == "B":
+        print("You use the Toilet paper to clog up your toilet.")
+        print("A guard comes in trying to unclog the toilet, and leaves the door open like an idiot (lol)")
+        print("What will you do?")
+        print("A: You silently steal his spare key out of his back pocket.")
+        print("B: You sneak out as he's trying to unclog the toilet.")
+        Lvl2_Question_Three = input("").capitalize()
+        if Lvl2_Question_Three == "A":
+            print("You wait for him to fix the toilet and walk out.")
+            print("When the coast is clear you sneak out,")
+            print("As you're running you see a guard, he notices you too.")
+            print("Act fast")
+            print("A: Run away!")
+            print("B: Fight him!")
+            Lvl2_Question_Three_One = input("").capitalize()
+            if Lvl2_Question_Three_One == "A":
+                print("You turn your back to him and he shoots you in the back of your head.")
+                print("(Why did you think that would work lol??)")
+                        
+            elif Lvl2_Question_Three_One == "B":
+                print("You quickly run towards him before he could react,\n and use some super advanced monkey ninja move to kill him and get off the spaceship.")
+                break
+            else:
+                print("Pick between A or B :()")
+
+        elif Lvl2_Question_Three == "B":
+            print("Long story short, you're a monkey :) you climb up inside the air conditioning system and safely escape the ship.")
+
+        else:
+            print("PICK BETWEEN A OR B YOU MONKEY!")
+               
+    elif Lvl2_Question_One == "C":
+        print("You use the magazine to distract him and steal his keys,\nBut you get distracted aswell and he notices that you try to steal the keys (You're executed, if only you didn't have such a dirty mind)")
+
+    else:
+        print("PICK BETWEEN A, B OR C >:(")
 
 #Level 3: Alien planet
 print("You have succesfully escaped the alien spaceship but you are now on their planet.")
@@ -74,69 +254,141 @@ while True:
     elif question_ == "B":
         print()
         break
-#Level 4:Elysium Prime
+
+#Level 4: Elysium Prime
+print("In the toilet you bumped into a someone")
+print("Hey, the person says.")
+print("You excuse yourself.")
 
 #Level 5: Banana Haven
+print("You and Devano finally landed landed.")
 print("Wow this planet looks beautifull. Look at those trees and waterfalls!")
 print("But wait...")
 print("Are these my...my family???")
+print("Jararis: Devano where on earth are we?")
+print("Devano: Earth? This is Banana Haven, Home right?")
+print("\nThe locals of Banana Haven seem apprehensive, eyeing you and Devano with suspicion.")
+print("It appears that they are not thrilled to have outsiders on their beloved planet.")
+print("Jararis: Wow Devano my home is earth not this planet! And why are all these people looking mad at us?")
+print("Devano: To be honest with you Jararis, I am exhiled from this planet.")
 
 
-#Level 6:Letter world
+#Level 6: Letter world
 
 #Level 7: Aqualandia
 
 #Level 8: Jamaica
 print("After a save landing you have finally arrived back on earth, but it looks a bit weird...")
-print("You hear a stranger say: Wagwan bossy Yuh luk lose or nuh?")
+print("You hear a stranger say: Wagwan bossy. Mi name is Agwe. Yuh luk lose or nuh?")
 
 while True:
     print("A: Yes, where am I?")
     print("B: No, I am good thank you.")
-    question_ = input("").capitalize()
+    lvl8_question_one = input("").capitalize()
 
-    if question_ == "A":
-        print("bommmbaaaclaaaatttt. I will answer that question if you solve this riddle bossman.")
+    if lvl8_question_one == "A":
+        print("Djoemma: bommmbaaaclaaaatttt. I will answer fi question if you solve me riddle bossman.")
         print("A: Tell me the riddle")
         print("B: Nevermind I will try to find out my self")
-        question_ = input("").capitalize()
+        lvl8_question_two = input("").capitalize()
         
-        if question_ == "A":
+        if lvl8_question_two == "A":
+            print("Djoemma: Alright listen here.")
+            print("""I'm a legend of music, with rhythm so grand,
+                    In Jamaica, my roots firmly stand.
+                    I sing of freedom, love, and good vibes,
+                    Reggae's the genre where my spirit thrives.
+                    Who am I?""")
+            while True:
+                correct_answer = "Bob Marley"
+                enter_answer = input("Enter your answer: ")
+
+                if enter_answer == correct_answer:
+                    print("You right!")
+                    break
+                else:
+                    print("Wrong answer, try again bloodclat.")
+            break
+        elif lvl8_question_two == "B":
+            print("Djoemma: Nah wrong choice bossy")
+            print("*BAM* *BAM*")
+            print("Oh no Devano got shot!!!")
             print("")
             break
-        elif question_ == "B":
-            print("Alright bossy")
-            break
-    elif question_ == "B":
-        print("Alright bossy.")
+    elif lvl8_question_one == "B":
+        print("Djoemma: Alright bossy.")
+        print("You find yourself in a bad neighbourhood")
+        print("You hear people yelling and running away")
+        print("*BAM* *BAM*")
+        print("Oh no Devano got shot!!!")
         break
 
 #Level 9: Rotterdam
 print("You are coming closer to the base but first you need to go trough Rotterdam South")
 print("In the distance you see someone walking towards you.")
 print("It's 2 euro man!!!")
-print("He immediately asked you if you have 2 euro")
+print("He immediately asked you if you have 2 euros")
 while True:
     print("What should I do?")
-    print("A: Give him 2 euro.")
+    print("A: Give him 2 euros.")
     print("B: Say you don't have money.")
-    question_ = input("").capitalize()
+    lvl9_question_one = input("").capitalize()
 
-    if question_ == "A":
-        print("Yes here 2 euro.")
-        print("Thank you for the 2 euro. Is there something I can help you with?")
+    if lvl9_question_one == "A":
+        print("Jararis: Yes here 2 euro.")
+        print("2 euro man: Thank you for the 2 euros. Is there something I can help you with?")
         while True:
-            print("A:")
-            print("B:")
-            break
+            print("A: Yes i need to find a way to get to my base")
+            print("B: No I am good.")
+            lvl9_question_two == input("").capitalize()
+
+            if lvl9_question_two == "A":
+                print("2 euro man: You need to go ask Djoemma.")
+                print("While you are walking you suddenly remember something \n Ofcourse I could've asked Djoemma if he knows the way!")
+                break
+            elif lvl9_question_two == "B":
+                print("You continue your journey through Rotterdam South.")
+                print("While you are walking you suddenly remember something \n I could ask Djoemma if he knows the way!")
+                break
         break
-    elif question_ == "B":
-        print("No sorry I don't have money.")
+    elif lvl9_question_one == "B":
+        print("Jararis: No sorry I don't have money.")
+        print("You continue your journey through Rotterdam South.")
+        print("While you are walking you suddenly remember something \n I could ask Djoemma if he knows the way!")
         break
 
+print("You finally found Djoemma, he's chewing on some rat meat.")
+print("Jararis: Hey Djoemma can you help me find the way back to my base?")
+print("Djoemma: Hello brother. Ofcourse I can help you but first you need to play rock paper scissors with me until you win.")
 
-#Level 10: 
-print("You finally made it to the secret space station base but it looks like you lost the keys.")
+while True:
+    player = input("rock, paper, scissor: ")
+    opponent =["rock","paper", "scissor"]
+    opponent = random.choice(opponent)
+    print("opponent: "+ opponent)
+
+    if player == "rock" and opponent=="scissor":
+        print("You won")
+        break
+    elif player == "scissor" and opponent=="paper":
+        print("You won")
+        break
+    elif player == "paper" and opponent=="rock":
+        print("You won")
+        break
+    elif player == "rock" and opponent=="paper":
+        print("You lost")
+    elif player == "paper" and opponent=="scissor":
+        print("You lost")
+    elif player == "scissor" and opponent=="rock":
+        print("You lost")
+    else: 
+        print("Draw")
+
+print("Djoemma: Here a map to your base. Good luck!")
+
+#Level 10: Homebase
+print("After a long walk you finally made it to the secret space station base but it looks like you lost the keys.")
 print("Luckily you have to option to enter a passcode.")
 print("You remember the passcode was four numbers long and was the zonecode for Rotterdam South")
 
@@ -149,7 +401,28 @@ while True:
         break
     else:
         print("Access denied. Incorrect passcode.")
-print("You are inside")        
+
+if Lvl3_Question_One == "A":
+    print("""As Jararis returns to the secret space station base and successfully enters the passcode to secure the rock,
+          he can't help but feel a sense of relief and accomplishment. The rock, essential for saving humanity, is finally safe and sound. 
+          But as he turns to leave the room and go back to his daily monkey business, 
+          a loud alarm suddenly blares throughout the base, red warning lights flashing all around him. The base is under attack!
+
+          Jararis is left standing there, clutching the precious rock, as the ground shakes from the impact of the attack. 
+          The fate of the base, the rock, and Jararis himself hang in the balance. Will he be able to protect the rock and the base from this unexpected threat? 
+          The adventure is far from over, and Jararis faces a new, dangerous challenge.""")
+    
+elif Lvl3_Question_One == "B":
+    print("""As Jararis stands in the secret space station base, relieved that he has secured the rock, he suddenly feels a cold shiver down his spine. 
+            His hand, which had been gripping the rock tightly, is now empty. Panic sets in as he frantically searches the room, but the rock is nowhere to be found. It's gone!
+
+            His mind races as he tries to retrace his steps. Could he have dropped it somewhere along the way? Did someone or something steal it? 
+            The fate of humanity hangs in the balance, and Jararis is now faced with a gut-wrenching realization - he might have lost the rock on that alien planet.
+
+            Desperation takes over as he contemplates the possibility of having to return to that perilous planet to retrieve the rock. 
+            The weight of his failure and the uncertainty of the rock's whereabouts leave him in a state of despair.""")
+
+print("To be continued...")
 
 #The end
-print("The end. Thank you for playing Space Monkey!")
+print("Thank you for playing Space Monkey! Feel free to play again ;)")
