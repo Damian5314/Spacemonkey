@@ -367,10 +367,10 @@ while True:
     lvl5_question_one = input("").capitalize()
 
     if lvl5_question_one == "A":
-        print("Monkano: ")
+        print("Monkano: Wowwww are you sure you want to go to her?")
 
     elif lvl5_question_one == "B":
-        print("Monkano: ")
+        print("Monkano: yeah she exhiled me for no reason. That is just how she works I guess...")
 
 #Level 6:Letter world
 
