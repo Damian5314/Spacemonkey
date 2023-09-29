@@ -398,29 +398,72 @@ while True:
                     I sing of freedom, love, and good vibes,
                     Reggae's the genre where my spirit thrives.
                     Who am I?""")
+            
             while True:
                 correct_answer = "Bob Marley"
                 enter_answer = input("Enter your answer: ")
 
                 if enter_answer == correct_answer:
                     print("You right!")
+                    print("Agwe: Ok bossman eff yuh wa fi get home yuh muss follow dis road but watch out it crosses a dangerous neighborhood.")
+                    print("You thank Agwe for his help and continue your journey.")
+                    print("While you're walking you notice you find yourself in a bad neighbourhood.")
+                    print("You hear people yelling and running away.")
+                    print("*BAM* *BAM*")
+                    print("Jararis: Oh no Monkano got shot!!!")
+                    print("What will you do?")
+
+                    while True:
+                        print("A: Try to save Monkano.")
+                        print("B: Run away.")
+                        lvl8_question_three =input("").capitalize()
+
+                        if lvl8_question_three == "A":
+                            print("Wow are you also trying to get shot???")
+                        elif lvl8_question_three == "B":
+                            print("You run as fast as you can to not get shot.")
+                            break
                     break
                 else:
                     print("Wrong answer, try again bloodclat.")
             break
+
         elif lvl8_question_two == "B":
             print("Djoemma: Nah wrong choice bossy")
             print("*BAM* *BAM*")
-            print("Jararis: Oh no Devano got shot!!!")
-            print("")
+            print("Jararis: Oh no Monkano got shot!!!")
+            print("What will you do?")
+            while True:
+                print("A: Try to save Monkano.")
+                print("B: Run away.")
+                lvl8_question_three =input("").capitalize()
+
+                if lvl8_question_three == "A":
+                    print("Wow are you also trying to get shot???")
+                elif lvl8_question_three == "B":
+                    print("You run as fast as you can to not get shot.")
+                    break
             break
+
     elif lvl8_question_one == "B":
         print("Djoemma: Alright bossy.")
-        print("You find yourself in a bad neighbourhood")
-        print("You hear people yelling and running away")
+        print("While you're walking you notice you find yourself in a bad neighbourhood.")
+        print("You hear people yelling and running away.")
         print("*BAM* *BAM*")
-        print("Jararis: Oh no Devano got shot!!!")
+        print("Jararis: Oh no Monkano got shot!!!")
+        print("What will you do?")
+        while True:
+            print("A: Try to save Monkano.")
+            print("B: Run away.")
+            lvl8_question_three =input("").capitalize()
+
+            if lvl8_question_three == "A":
+                print("Wow are you also trying to get shot???")
+            elif lvl8_question_three == "B":
+                print("You run as fast as you can to not get shot.")
+                break
         break
+print("lalalalalal")
 
 #Level 9: Rotterdam
 print("You are coming closer to the base but first you need to go trough Rotterdam South")
