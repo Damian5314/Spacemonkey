@@ -15,7 +15,7 @@ print("Now let the story begin, have fun!\n")
 while True: 
     print("Do you want to start?")
     print("A: Yes")
-    print("B: No") 
+    print("B: No")
 
     Start_Answer = input("").capitalize()
 
@@ -35,8 +35,8 @@ health = max_health
 #Level 1: Unknown planet
 print(
     """Jararis was a special trained monkey that can talk and who was trained to go to space.
-One day he was needed for a space mission to get a special rock to save humanity but when he finally got the item,
-A astroid hit his ship and he crashed down.\n""")
+    One day he was needed for a space mission to get a special rock to save humanity but when he finally got the item,
+    A astroid hit his ship and he crashed down.\n""")
 print("""Jararis: Huh, where am I? 
 My head is pounding, and my vision is blurry. I recall flashes of alarm signals and sudden turbulence. 
 The last memory I have is looking out the window of my spaceship as I crashed. 
@@ -74,7 +74,7 @@ while True:
         print("You went to check in the forest.") 
         break
     elif question_two == "B":
-        print("Yararis: I don't like sand. It's coarse , irritating and it gets everywhere.")
+        print("Yararis:I don't like sand. It's coarse , irritating and it gets everywhere.")
         
 print("When entering the forest , there was a bord that Jararis did not see : Forest of riddles!")
 print("""Jararis:The forest is like a giant playground filled with towering trees, so tall they seem to touch the sky.
@@ -236,7 +236,7 @@ while True:
 
     else:
         print("PICK BETWEEN A, B OR C >:(")
-
+        
 #Level 3: Alien planet
 print("You have succesfully escaped the alien spaceship but you are now on their planet.")
 print("You quickly go hiding because the whole planet is filled with the hostile aliens.")
@@ -342,39 +342,40 @@ while second_outer_loop:
             print("You took too long to unlock the door and got noticed by a guard")
             print("You got shot, and died...")
             break
-
-#Level 4: Elysium Prime
-print("In the toilet you bumped into a someone")
+        
+#Level 4:Elysium Prime
+print("In the toilet you bumped into a someone.")
 print("Hey, the person says.")
 print("You excuse yourself.")
 
 #Level 5: Banana Haven
-print("You and Devano finally landed landed.")
+print("You and Monkano finally landed landed.")
 print("Wow this planet looks beautifull. Look at those trees and waterfalls!")
 print("But wait...")
 print("Are these my...my family???")
-print("Jararis: Devano where on earth are we?")
-print("Devano: Earth? This is Banana Haven, Home right?")
-print("\nThe locals of Banana Haven seem apprehensive, eyeing you and Devano with suspicion.")
+print("Jararis: Monkano where on earth are we?")
+print("Monkano: Earth? This is Banana Haven, Home right?")
+print("\nThe locals of Banana Haven seem apprehensive, eyeing you and Monkano with suspicion.")
 print("It appears that they are not thrilled to have outsiders on their beloved planet.")
-print("Jararis: Wow Devano my home is earth not this planet! And why are all these people looking mad at us?")
-print("Devano: To be honest with you Jararis, I am exhiled from this planet.")
+print("Jararis: Wow Monkano my home is earth not this planet! And why are all these people looking mad at us?")
+print("Monkano: To be honest with you Jararis, I am exhiled from this planet.")
 print("Jararis: Exhiled? What did you do to get exhiled?")
-print("Devano: My mother is the queen of this planet and yeah...")
+print("Monkano: My mother is the queen of this planet and yeah...")
 while True:
     print("A: We must find your mother, maybe she can help me get off this planet again")
     print("B: What do you mean with yeah?")
     lvl5_question_one = input("").capitalize()
 
     if lvl5_question_one == "A":
-        print()
+        print("Monkano: ")
 
     elif lvl5_question_one == "B":
-        print()
+        print("Monkano: ")
 
-#Level 6: Letter world
+#Level 6:Letter world
 
 #Level 7: Aqualandia
+print("As you are going deeper and deeper into the ocean you start to see some lights down there.")
 
 #Level 8: Jamaica
 print("After a save landing you have finally arrived back on earth, but it looks a bit weird...")
@@ -477,15 +478,15 @@ while True:
     lvl9_question_one = input("").capitalize()
 
     if lvl9_question_one == "A":
-        print("Jararis: Yes here 2 euro.")
-        print("2 euro man: Thank you for the 2 euros. Is there something I can help you with?")
+        print("Yes here 2 euro.")
+        print("Thank you for the 2 euros. Is there something I can help you with?")
         while True:
             print("A: Yes i need to find a way to get to my base")
             print("B: No I am good.")
             lvl9_question_two == input("").capitalize()
 
             if lvl9_question_two == "A":
-                print("2 euro man: You need to go ask Djoemma.")
+                print("You need to go ask Djoemma.")
                 print("While you are walking you suddenly remember something \n Ofcourse I could've asked Djoemma if he knows the way!")
                 break
             elif lvl9_question_two == "B":
@@ -494,13 +495,13 @@ while True:
                 break
         break
     elif lvl9_question_one == "B":
-        print("Jararis: No sorry I don't have money.")
+        print("No sorry I don't have money.")
         print("You continue your journey through Rotterdam South.")
         print("While you are walking you suddenly remember something \n I could ask Djoemma if he knows the way!")
         break
 
 print("You finally found Djoemma, he's chewing on some rat meat.")
-print("Jararis: Hey Djoemma can you help me find the way back to my base?")
+print("Hey Djoemma can you help me find the way back to my base?")
 print("Djoemma: Hello brother. Ofcourse I can help you but first you need to play rock paper scissors with me until you win.")
 
 while True:
@@ -553,7 +554,7 @@ if Lvl3_Question_One == "A":
           Jararis is left standing there, clutching the precious rock, as the ground shakes from the impact of the attack. 
           The fate of the base, the rock, and Jararis himself hang in the balance. Will he be able to protect the rock and the base from this unexpected threat? 
           The adventure is far from over, and Jararis faces a new, dangerous challenge.""")
-    
+          
 elif Lvl3_Question_One == "B":
     print("""As Jararis stands in the secret space station base, relieved that he has secured the rock, he suddenly feels a cold shiver down his spine. 
             His hand, which had been gripping the rock tightly, is now empty. Panic sets in as he frantically searches the room, but the rock is nowhere to be found. It's gone!
