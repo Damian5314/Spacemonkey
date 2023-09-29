@@ -464,10 +464,13 @@ while True:
                 print("You run as fast as you can to not get shot.")
                 break
         break
-print("lalalalalal")
+        
+print("Now you're finally at a safe space.")
+print("Jararis: wow my best friend just died and I could not save him. Now I need to finish this mission for him.")
+print("Let's go home...Rotterdam...")
 
 #Level 9: Rotterdam
-print("You are coming closer to the base but first you need to go trough Rotterdam South")
+print("You finally arived in Rotterdam South after a long journey. You are so close to the end")
 print("In the distance you see someone walking towards you.")
 print("It's 2 euro man!!!")
 print("He immediately asked you if you have 2 euros")
