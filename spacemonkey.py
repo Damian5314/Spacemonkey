@@ -342,11 +342,190 @@ while second_outer_loop:
             print("You took too long to unlock the door and got noticed by a guard")
             print("You got shot, and died...")
             break
-        
+
 #Level 4:Elysium Prime
-print("In the toilet you bumped into a someone.")
-print("Hey, the person says.")
-print("You excuse yourself.")
+print("As you're wandering through the vast void of outer space, not knowing where to go all you can think of are bananas...")
+print("You're going to have to make a stop very soon as you're running out of food")
+print("You check the space map and see your only hope is an interstellar space station called Elysium Prime")
+print("You decide to give it a shot as it's your only hope...")
+
+Third_outer_loop = True
+while Third_outer_loop:
+    print("You've landed and managed to find a restaurant")
+    print("You look around and see that the space station is filled with different alien races")
+    print("Luckily you stole some money from those alien guards so you've got enough for one meal")
+    print("What would you like to eat?")
+    print("A: Spicy Banana Soup")
+    print("B: Strange looking tentacles")
+    print("C: A bowl of spiky looking fruits")
+    Lvl4_Question_Food = input("").capitalize()
+    while True:
+        if Lvl4_Question_Food == "A":
+            print("You couldn't resist your monkey urges and obviously picked the Spicy Banana Soup")
+            print("You finish the WHOLE bowl in 3 minutes! (It was amazing...)")
+            Third_outer_loop = False
+            break
+
+        elif Lvl4_Question_Food == "B":
+            print("You decided to go for something new huh?")
+            print("(How did you not pick the Spicy Banana Soup??? Are you even a real monkey? ._.)")
+            print("You finish your plate pretty fast, the food wasn't that bad")
+            Third_outer_loop = False
+            break
+
+        elif Lvl4_Question_Food == "C":
+            print("Why did you pick this, are you trying to starve Jararis?")
+            print("Jararis managed to eat some of the food after removing all the spikes")
+            print("Jararis: That didn't really taste that good but food is food I guess...")
+            Third_outer_loop = False
+            break
+
+        else:
+            print("Pick between A,B or C")
+            print("(Only weirdos don't :D)")
+
+Fourth_outer_loop = True
+while Fourth_outer_loop: 
+    if Lvl4_Question_Food == "A":
+        print("Jararis: I should probably get moving now")
+        print("What will you do?")
+        print("A: Start looking for usefull things")
+        print("B: Stay seated...")
+        Lvl4_Question_FoodOne = input("").capitalize()
+        while True:
+            if Lvl4_Question_FoodOne == "A":
+                print("You get up and start exploring the space station")
+                Fourth_outer_loop = False
+                break
+
+            elif Lvl4_Question_FoodOne == "B":
+                print("That ain't going to get you far is it")
+                print("Perhaps you should pick a more serious answer :O")
+                print("(Seriously, why would you do that to Jararis you monster >:/ )")
+                break
+
+    elif Lvl4_Question_Food == "B":
+        print("Jararis: I should probably get moving now")
+        print("What will you do?")
+        print("A: Start looking for usefull things")
+        print("B: Stay seated...")
+        Lvl4_Question_FoodTwo = input("").capitalize()
+        while True:
+            if Lvl4_Question_FoodTwo == "A":
+                print("You get up and start exploring the space station")
+                Fourth_outer_loop = False
+                break
+
+            elif Lvl4_Question_FoodTwo == "B":
+                print("That ain't going to get you far is it")
+                print("Perhaps you should pick a more serious answer :O")
+                print("(Seriously, why would you do that to Jararis you monster >:/ )")
+                break
+
+    elif Lvl4_Question_Food == "C":
+        print("Jararis: I should probably get moving now")
+        print("What will you do?")
+        print("A: Start looking for usefull things")
+        print("B: Stay seated...")
+        Lvl4_Question_FoodThree = input("").capitalize()
+        while True:
+            if Lvl4_Question_FoodThree == "A":
+                print("You get up and start exploring the space station")
+                Fourth_outer_loop = False
+                break
+
+            elif Lvl4_Question_FoodThree == "B":
+                print("That ain't going to get you far is it")
+                print("Perhaps you should pick a more serious answer :O")
+                print("(Seriously, why would you do that to Jararis you monster >:/ )")
+                break
+
+
+        
+Fifth_outer_loop = True
+while Fifth_outer_loop:
+    print("Jararis: This is nice, finally no annoying alien guards that chase me around...")
+    print("Suddenly you hear a loud screaming voice behind you")
+    print("Alien guard: - .... . .-. . / .... . / .. ... --..-- / --. . - / - .... .- - / ... - ..- .--. .. -.. / -- --- -. -.- . -.-- -.-.--")
+    print("Jararis: YOU'VE GOT TO BE KIDDING ME!!! (What is this idiot even saying anyways...)")
+    print("The guards start charging towards you, you have to find a hiding spot.")
+    print("You have 2 options:")
+    print("A: You hide in the toilets")
+    print("B: You hide in a big crowd of people")
+    Lvl4_Question_One = input("").capitalize()
+    while True:
+        if Lvl4_Question_One == "A":
+            print("You run over to the toilers and quickly lock the door. Not too long after you hear the guards charge in and check if you're there")
+            print("Alien Guard: --. --- -.. / .. / .... .- - . / -- --- -. -.- . -.-- ... -.-.--")
+            print("Lucky for you, they don't check all the toilets and just leave. (These guards are almost as stupid as you! XD)")
+            print("Suddenly you feel your stomach starting to burn like CRAZY")
+            if Lvl4_Question_Food == "A":
+                print("Jararis: THAT SPICY BANANA SOUP REALLY WASN'T A GREAT IDEA NOW THAT I THINK ABOUT IT")
+                print("Jararis now faces his greatest enemy so far on this crazy adventure, The Toilet...")
+                print("After fighting like a warrior for 4 HOURS STRAIGHT, Jararis has lost a lot...")
+                print("He's thirsty, hungry and last but not least... has no toilet paper")
+                Fifth_outer_loop = False
+                break
+
+            elif Lvl4_Question_Food == "B":
+                print("Jararis: THOSE WEIRD TENTACLES WE'RE A BAD IDEA WHY WOULD I EAT THAT IN THE FIRST PLACE")
+                print("Jararis now faces his greatest enemy so far on this crazy adventure, The Toilet...")
+                print("After fighting like a warrior for 4 HOURS STRAIGHT, Jararis has lost a lot...")
+                print("He's thirsty, hungry and last but not least... has no toilet paper")
+                Fifth_outer_loop = False
+                break
+            
+            elif Lvl4_Question_Food == "C":
+                print("Jararis: WHY DID I EAT THOSE STUPID SPIKE FRUITS THEY LITERALLY LOOKED LIKE A MORNING STAR")
+                print("(Morning star: A club with a heavy spiked head, sometimes attached to the handle by a chain, this weapon was mostly used in medieval times.)")
+                print("Jararis now faces his greatest enemy so far on this crazy adventure, The Toilet...")
+                print("After fighting like a warrior for 4 HOURS STRAIGHT, Jararis has lost a lot...")
+                print("He's thirsty, hungry and last but not least... has no toilet paper")
+                Fifth_outer_loop = False
+                break
+
+        elif Lvl4_Question_One == "B":
+            print("As you're quietly walking with the crowd of people you suddenly get tasered in the back")
+            print("You pass out...")
+            print("(You will be tortured for the rest of your life, unlucky lol)")
+            break
+
+print("After 4 hours someone else finally enters the toilet")
+print("Jararis: Hey man could you please hand me some toilet paper?")
+print("Stranger: DAMN it smells like a dead body in here!")
+print("Jararis (In an ashamed voice): Please just hand me some toilet paper...")
+print("You finish all the stinky business on the toilet and open the door")
+print("There he was Monkvano, with his deep, soulful eyes and tuft of unruly fur, he looked back at you with a blend of curiosity and amusement.") 
+print("He was no ordinary monkey; he was a resident of Elysium Prime, known for his uncanny ability to navigate the city's intricate maze of walkways and rooftops.")
+print("Jararis: Y-y-you're like me!?")
+print("Monkvano: Y-y-you're like me!?")
+
+Sixth_outer_loop = True
+while Sixth_outer_loop: 
+    print("Do you ask Monkvano to help you?")
+    print("A: Yes")
+    print("B: No")
+    Lvl4_Question_Two = input("").capitalize()
+    while True:
+        if Lvl4_Question_Two == "A":
+            print("Jararis: Do you know how to get back home? I really need to get back home!")
+            print("Monkvano: Of course my fellow monkey brother, we have to help eachother out ain't that right")
+            print("Jararis: Could you try to keep me out of sight of those scary Alien Guards though, I think they don't really like me...")
+            print("Monkvano: Oh yeah same for some reason I've been getting chased around all day")
+            print("Monkvano: I think there's a criminal monkey on Elysium Prime which they're trying to catch right now")
+            print("Jararis: Yeah let's just make sure we avoid them...")
+            Sixth_outer_loop = False
+            break
+
+        elif Lvl4_Question_Two == "B":
+            print("After a long talk about how tasty bananas en peanuts are you both part ways.")
+            print("(You get lost on Elysium Prime and the Alien guards manage to arrest you after a while.)")
+            print("(WHY WOULDN'T YOU JUST ASK THAT BEAUTIFUL MONKEY MONKVANO FOR HELP?)")
+            break
+
+print("You and Monkvano get to the ship and head into out space again")
+print("After flying through space for a while, you and monkvano finally arive 'home'")
+print("(You also farted a lot during the trip, smelly little monkey XD)")
 
 #Level 5: Banana Haven
 print("You and Monkvano finally landed.")
