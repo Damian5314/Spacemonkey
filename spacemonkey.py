@@ -349,18 +349,18 @@ print("Hey, the person says.")
 print("You excuse yourself.")
 
 #Level 5: Banana Haven
-print("You and Monkano finally landed.")
-print("Wow this planet looks beautifull. Look at those trees and waterfalls!")
+print("You and Monkvano finally landed.")
+print("Wow this place looks beautifull. Look at those trees and waterfalls!")
 print("But wait...")
 print("Are these my...my family???")
-print("Jararis: Monkano where on earth are we?")
-print("Monkano: Earth? This is Banana Haven, Home right?")
-print("\nThe locals of Banana Haven seem apprehensive, eyeing you and Monkano with suspicion.")
+print("Jararis: Monkvano where on earth are we?")
+print("Monkvano: Earth? This is Banana Haven, Home right?")
+print("\nThe locals of Banana Haven seem apprehensive, eyeing you and Monkvano with suspicion.")
 print("It appears that they are not thrilled to have outsiders on their beloved planet.")
-print("Jararis: Wow Monkano my home is earth not this planet! And why are all these people looking mad at us?")
-print("Monkano: To be honest with you Jararis, I am exhiled from this planet.")
+print("Jararis: Wow Monkvano my home is earth not this planet! And why are all these people looking mad at us?")
+print("Monkvano: To be honest with you Jararis, I am exhiled from this planet.")
 print("Jararis: Exhiled? What did you do to get exhiled?")
-print("Monkano: My mother is the queen of this planet and yeah...")
+print("Monkvano: My mother is the queen of this planet and yeah...")
 
 while True:
     print("A: We must find your mother, maybe she can help me get off this planet again")
@@ -368,12 +368,12 @@ while True:
     lvl5_question_one = input("").capitalize()
 
     if lvl5_question_one == "A":
-        print("Monkano: Wowwww are you sure you want to go to her?")
+        print("Monkvano: Wowwww are you sure you want to go to her?")
         print("Jararis: Yes because I need to get to earth.")
         break
 
     elif lvl5_question_one == "B":
-        print("Monkano: yeah she exhiled me for no reason. That is just how she works I guess...")
+        print("Monkvano: yeah she exhiled me for no reason. That is just how she works I guess...")
         print("Jararis: Oh Ok. I need to get of this planet asap.")
         break
 
@@ -395,7 +395,7 @@ print("")
 
 #Level 6: Dwarfmania
 
-#Level 7: Otoh Gunga
+#Level 7: Otoh Gunga 
 print("As you are going deeper and deeper into the ocean you start to see some lights down there.")
 
 #Level 8: Jamaica
@@ -432,11 +432,11 @@ while True:
                     print("While you're walking you notice you find yourself in a bad neighbourhood.")
                     print("You hear people yelling and running away.")
                     print("*BAM* *BAM*")
-                    print("Jararis: Oh no Monkano got shot!!!")
+                    print("Jararis: Oh no Monkvano got shot!!!")
                     print("What will you do?")
 
                     while True:
-                        print("A: Try to save Monkano.")
+                        print("A: Try to save Monkvano.")
                         print("B: Run away.")
                         lvl8_question_three =input("").capitalize()
 
@@ -453,10 +453,10 @@ while True:
         elif lvl8_question_two == "B":
             print("Djoemma: Nah wrong choice bossy")
             print("*BAM* *BAM*")
-            print("Jararis: Oh no Monkano got shot!!!")
+            print("Jararis: Oh no Monkvano got shot!!!")
             print("What will you do?")
             while True:
-                print("A: Try to save Monkano.")
+                print("A: Try to save Monkvano.")
                 print("B: Run away.")
                 lvl8_question_three =input("").capitalize()
 
@@ -472,10 +472,10 @@ while True:
         print("While you're walking you notice you find yourself in a bad neighbourhood.")
         print("You hear people yelling and running away.")
         print("*BAM* *BAM*")
-        print("Jararis: Oh no Monkano got shot!!!")
+        print("Jararis: Oh no Monkvano got shot!!!")
         print("What will you do?")
         while True:
-            print("A: Try to save Monkano.")
+            print("A: Try to save Monkvano.")
             print("B: Run away.")
             lvl8_question_three =input("").capitalize()
 
@@ -485,7 +485,7 @@ while True:
                 print("You run as fast as you can to not get shot.")
                 break
         break
-        
+
 print("Now you're finally at a safe space.")
 print("Jararis: wow my best friend just died and I could not save him. Now I need to finish this mission for him.")
 print("Let's go home...Rotterdam...")
