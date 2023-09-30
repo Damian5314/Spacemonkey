@@ -374,9 +374,9 @@ while True:
         print("Monkano: yeah she exhiled me for no reason. That is just how she works I guess...")
         break
 
-#Level 6:Letter world
+#Level 6: Dwarfmania
 
-#Level 7: Aqualandia
+#Level 7: Otoh Gunga
 print("As you are going deeper and deeper into the ocean you start to see some lights down there.")
 
 #Level 8: Jamaica
