@@ -368,9 +368,11 @@ while True:
 
     if lvl5_question_one == "A":
         print("Monkano: Wowwww are you sure you want to go to her?")
+        break
 
     elif lvl5_question_one == "B":
         print("Monkano: yeah she exhiled me for no reason. That is just how she works I guess...")
+        break
 
 #Level 6:Letter world
 
@@ -486,7 +488,7 @@ while True:
         while True:
             print("A: Yes i need to find a way to get to my base")
             print("B: No I am good.")
-            lvl9_question_two == input("").capitalize()
+            lvl9_question_two = input("").capitalize()
 
             if lvl9_question_two == "A":
                 print("You need to go ask Djoemma.")
