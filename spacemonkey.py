@@ -349,7 +349,7 @@ print("Hey, the person says.")
 print("You excuse yourself.")
 
 #Level 5: Banana Haven
-print("You and Monkano finally landed landed.")
+print("You and Monkano finally landed.")
 print("Wow this planet looks beautifull. Look at those trees and waterfalls!")
 print("But wait...")
 print("Are these my...my family???")
@@ -361,6 +361,7 @@ print("Jararis: Wow Monkano my home is earth not this planet! And why are all th
 print("Monkano: To be honest with you Jararis, I am exhiled from this planet.")
 print("Jararis: Exhiled? What did you do to get exhiled?")
 print("Monkano: My mother is the queen of this planet and yeah...")
+
 while True:
     print("A: We must find your mother, maybe she can help me get off this planet again")
     print("B: What do you mean with yeah?")
@@ -368,11 +369,29 @@ while True:
 
     if lvl5_question_one == "A":
         print("Monkano: Wowwww are you sure you want to go to her?")
+        print("Jararis: Yes because I need to get to earth.")
         break
 
     elif lvl5_question_one == "B":
         print("Monkano: yeah she exhiled me for no reason. That is just how she works I guess...")
+        print("Jararis: Oh Ok. I need to get of this planet asap.")
         break
+
+print("Monkvano: Well if I get you to her you need to take me with you because I also don't want to stay here.")
+
+while True:
+    print("A: Alright we have a deal.")
+    print("B: No I am not taking you with me")
+    lvl5_question_two = input("").capitalize()
+
+    if lvl5_question_two == "A":
+        print("Monkvano: Yes let's go!")
+        break
+
+    elif lvl5_question_two == "B":
+        print("Monkvano: Then I am not taking you to her.")
+
+print("")
 
 #Level 6: Dwarfmania
 
