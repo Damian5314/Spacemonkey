@@ -336,7 +336,7 @@ while second_outer_loop:
         if Lvl3_Question_ThreeA == "TUANA KAN NIET RIJDEN HAHA!":
             print("Jararis: Nice! The door unlocked, that was easier than I thought!")
             print("I do wonder who Tuana is though...")
-            print("You fly off to the ")
+            print("You fly off into outerspace wondering where else this adventure might lead you to...")
             break
         else:
             print("You took too long to unlock the door and got noticed by a guard")
