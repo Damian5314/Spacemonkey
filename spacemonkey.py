@@ -1366,7 +1366,8 @@ while lvl1_outer_loop:
 
 print("""After Jararis and Monkvano successfully completed the obstacle course, they arrived at the door of Bob Monkey's house.
 They knocked, and they could hear these words: "I'm just a Buffalo Soldier
-In the heart of America. Stolen from Africa, brought to America.\n 
+In the heart of America. Stolen from Africa, brought to America.
+Jararis:Hmmm this song sounds familiar.\n 
 
 Jararis then asked, "How can I reach planet Earth?" Bob Monkey explained that he unfortunately couldn't remember the 
 coordinates due to his dementia. However, he knew a Jamaican friend: Yara Larissa who might have the information. He offered them a 
