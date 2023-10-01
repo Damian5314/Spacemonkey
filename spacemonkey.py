@@ -28,14 +28,14 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 #Level 1: Unknown planet
 print(
-    """Jararis was a special trained monkey that can talk and who was trained to go to space.
+    """Jararis was a specially trained monkey that can talk and who was trained to go to space.
 One day he was needed for a space mission to get a special rock to save humanity but when he finally got the item,
-A astroid hit his ship and he crashed down on a unknown planet.\n""")
+A asteroid hit his ship and he crashed down on an unknown planet.\n""")
 print("""Jararis: Huh, where am I? 
 My head is pounding, and my vision is blurry. I recall flashes of alarm signals and sudden turbulence. 
 The last memory I have is looking out the window of my spaceship as I crashed. 
 Now I lie here, surrounded by lush green leaves and the sweet scent of tropical flowers.
-This is not a place I am familiar with. It's as if I've landed on an entirely different world.
+This is not a place I am familiar with. It's as if I've landed in an entirely different world.
 I hear the sounds of unfamiliar creatures and see strange, colorful birds high in the trees. 
 Adrenaline rushes through me as I realize I am stranded on this mysterious tropical planet. 
 I must find ways to protect myself and explore what this new world has to offer.
@@ -77,7 +77,7 @@ There are flowers of all colors—red, yellow, blue—all over the place. It's l
 \n""")
 
 print("""Jararis: As I ventured through the lush forest, my eyes were drawn to a towering banana tree.
-Its slender trunk reached up into the sky, and at the top, a cluster of banana hung. 
+Its slender trunk reached up into the sky, and at the top, a cluster of bananas hung. 
 These bananas were enormous, larger than any I had ever come across in my life.                       
 I felt a mix of excitement and hunger.
 I wanted to taste the delicious banana and savor the sweet taste of it. 
@@ -164,7 +164,7 @@ print("""jararis: As I approached the bridge, I noticed a massive barrier blocki
 It seemed impossible to proceed.
 Upon closer inspection, I discovered a control panel with three slots for riddles.
 To raise the barrier and access the bridge, I had to solve three riddles: an easy riddle, a medium riddle, 
-and a difficult riddle, or find a man in the forest named Jango  that now the answers of the riddles.
+and a difficult riddle, or find a man in the forest named Jango  that now has the answers to the riddles.
 The fate of my journey depended on my wit and the answers I could provide.
 I took a deep breath, ready to face the challenge.\n""")
 
@@ -489,7 +489,7 @@ while lvl1_outer_loop:
 bridge = ("""Jararis: Yes we did it!!
 Now we can get all of the ship stuff back and repair the ship.\n
 After working for hours jararis finally repaired the ship with his repair kit.
-But he realized that he got no fuel to fly.
+But he realized that he had no fuel to fly.
 In his quest for fuel, Jararis explored the planet further.
 As he walked through the dense forest, he stumbled upon peculiar markings on the trees.
 These markings seemed to be a clue leading to a temple.\n
@@ -1149,6 +1149,230 @@ print("Monkey Queen: I dont know how to get to earth but I know someone who does
 print("Monkey Queen: He lives on Dwarfmania.")
 
 #Level 6: Dwarfmania
+print("""Monkvano mother kindly explained that she didn't know where Earth was. However, she mentioned an old monkey  
+named Bob Monkey living on Dwarfmania. Yararis and Monkvano embarked on a thrilling adventure, 
+boarding a special, magical banana train known for its ability to travel the cosmic expanse between planets.
+Only with this train, could you go to Dwarfmania and not with a Spaceship.
+As the train zoomed through the galaxy, they felt a surge of excitement, their destination drawing near—the mysterious 
+Dwarfsmania.\n 
+Upon arriving at Dwarfmania, they were greeted by an indescribable city and world.
+It was stunning, yet bustling with dwarves, each deeply engrossed in their own affairs.
+Monkvano and Yararis headed to a nearby shop to inquire about the whereabouts of Bob Monkey.
+There, they learned that he resided on the highest mountain of the dwarf planet.
+To reach the mountain, they needed to take a lift. So the shopkeeper gave them a map and there they went to the unknown.\n
+The journey to the mountain was just as smooth, with the lift providing breathtaking views of Dwarfmania.
+Upon reaching the mountain, they noticed a grand entrance adorned with magic symbols and markings.
+A sign nearby indicated that to speak with or reach Bob Monkey, one must pass a series of challenging trials and tests.
+But one off the parkour has a free passage without any danger. So choose your parkour wisely.
+""")
+
+print("Welcome in Bob Monkey trial of death")
+print("Survive the parkour and you can enter Bob Monkey's house.")
+
+lvl1_outer_loop = True
+while lvl1_outer_loop:
+    print("Which parkour will we go?")
+    print("A: Dragon slayer")
+    print("B: Dwarf  slayer")
+    print("C: Seductive slayer")
+    print("D: Monkey slayer")
+    item_choice = input("Your choice (A, B, C, or D): ").capitalize()
+
+    if item_choice == "A":
+        print("\nYou decide to go for the Dragon slayer parkour.")
+        print("You walk straight in the parkour you see two paths:")
+        print("A: Take left path")
+        print("B: Take right path")
+        question_toilet = input("Your choice (A or B): ").capitalize()
+
+        if question_toilet == 'A':
+            print("\n You see holes on the ground.")
+            while True:
+                print("A: Run straight as a crazy gorilla")
+                print("B: Step back, because you a b*tch")
+                closet_choice = input("Your choice (A or B): ").capitalize()
+                if closet_choice == 'A':
+                    print("\nAhhhh, fire came out of the holes!You and monkvano died")
+                    print("Try again")
+                    continue
+                elif closet_choice == 'B':
+                    print("\nJararis and Monkvano: yesss we made it across the parkour.")
+                    print("Lets goo to Bob fuc***ng Monkey.")
+                    lvl1_outer_loop = False
+                    break
+                break
+            break
+
+        elif question_toilet == 'B':
+            print("\nJararis and  monkvano: Blehhhh, you monkeys died of extreme heat")
+            print("Try again")
+            while True:
+                print("A: Take left path")
+                print("B: Take right path")
+                table_choice = input("Your choice (A or B): ").capitalize()
+                if table_choice == 'A':
+                    print("\nYou see holes in the ground!.")
+                    while True:
+                        print("A: Run straight as a crazy gorilla")
+                        print("B: Step back, because you a b*tch")
+                        closet_choice = input("Your choice (A or B): ").capitalize()
+                        if closet_choice == 'A':
+                            print("\n Ahhhh, fire came out of the holes!You and monkvano died")
+                            print("Try again")
+                            continue
+                        elif closet_choice == 'B':
+                            print("\n Jararis and Monkvano: yesss we made it across the parkour.")
+                            print("Lets goo to Bob fuc***ng Monkey.")
+                            lvl1_outer_loop = False
+                            break
+                        break
+                    break
+                elif table_choice == 'B':
+                    print("\n Jararis and Monkvano: yesss we made it across the parkour.")
+                    print("Lets goo to Bob fuc***ng Monkey.")
+                    lvl1_outer_loop = False
+                    break
+                break
+            break
+        else:
+            print("Invalid choice. Please select A or B.")
+
+    elif item_choice == "B":
+        print("\nYou decide to choose parkour Dwarf slayer.")
+        print("Congratulation you chose the save parkour without any danger.")
+        print("You can goo freely through the parkour ")
+        lvl1_outer_loop = False
+        print("Jararis and monkvano:Yeahh baby, We got our lucky pants on.")
+        break
+    elif item_choice == "C":
+        print("\nYou decide to choose the seductive sc"
+              "layer parkour.")
+        print("You came across two paths with names.")
+        print('Each path lead to another way.')
+        print("A: Go left for bananas ")
+        print("B: Go right for a lady")
+        question_glasses = input("Your choice (A or B): ").capitalize()
+
+        if question_glasses == 'A':
+            print("\nYou see a bananas on the ground!")
+            while True:
+                print("A: Eat the banana")
+                print("B: Ignore the banana")
+                closet_choice = input("Your choice (A or B): ").capitalize()
+                if closet_choice == 'A':
+                    print("\nIt was a trap stupid monkey's.You guys died because of poison!")
+                    print("Try again")
+                    continue
+                elif closet_choice == 'B':
+                    print("Nice job, you almost died of poison.")
+                    print("Jararis and Monavano: We were to sexy to get seduced. Lets go to the sexy old Bob Monkey")
+                    lvl1_outer_loop = False
+                    break
+                break
+            break
+
+        elif question_glasses == 'B':
+            print("\nYou guys died. The lady shot two arrows through your hearts.")
+            print("Try again")
+            while True:
+                print("A: Go left for bananas ")
+                print("B: Go right for a lady")
+                table_choice = input("Your choice (A or B): ").capitalize()
+                if table_choice == 'A':
+                    while True:
+                        print("A: Go left for bananas ")
+                        print("B: Go right for a lady")
+                        closet_choice = input("Your choice (A or B): ").capitalize()
+                        if closet_choice == 'A':
+                            print("\nIt was a trap stupid monkey's.You guys died because of poison!")
+                            print("Try again")
+                            continue
+                        elif closet_choice == 'B':
+                            print("Nice job, you almost died of poison")
+                            print(
+                                "Jararis and Monavano: We were to sexy to get seduced. Lets go to the sexy old Bob "
+                                "Monkey")
+                            lvl1_outer_loop = False
+                            break
+                        break
+                    break
+                elif table_choice == 'B':
+                    print("\nNIce job, you almost died of poison!")
+                    print("Jararis and Monavano: We were to sexy to get seduced. Lets go to the sexy old Bob Monkey.")
+                    lvl1_outer_loop = False
+                    break
+                break
+            break
+        else:
+            print("Invalid choice. Please select A or B.")
+    elif item_choice == "D":
+        print("\nYou decided for Monkey Slayer parkour.")
+        print("While walking in the parkour you read a board congratulation this was the save passage!")
+        print("A:Walk past the board")
+        print("B:Stand still")
+        question_glasses = input("Your choice (A or B): ").capitalize()
+
+        if question_glasses == 'A':
+            print("You are know past the board")
+            while True:
+                print("A: Run straight forward.")
+                print("B: Walk slowly the parkour out")
+                closet_choice = input("Your choice (A or B): ").capitalize()
+                if closet_choice == 'A':
+                    print("\nYou activated a motion detector. It was a bait to say this was a free passage.")
+                    print("You Monkey's died by a shotgun in the ear")
+                    print("Try again")
+                    continue
+                elif closet_choice == 'B':
+                    print("While walking slowly out of the parkour, no motion detector went of.")
+                    print("Yararis and Monkvano: Yahhh, lets go to popsy Bob Monkey")
+                    lvl1_outer_loop = False
+                    break
+                break
+            break
+
+        elif question_glasses == 'B':
+            print("\nThe ground suddenly opened up,  and you Stupid Monkey's felt in large spikes")
+            while True:
+                print("A:Walk past the board")
+                print("B:Stand still")
+                table_choice = input("Your choice (A or B): ").capitalize()
+                if table_choice == 'A':
+                    while True:
+                        print("A: Run straight forward.")
+                        print("B: Walk slowly the parkour out")
+                        closet_choice = input("Your choice (A or B): ").capitalize()
+                        if closet_choice == 'A':
+                            print("\n You activated a motion detector. It was a bait to say this was a free passage.")
+                            print("You Monkey's died by a shotgun in the ear")
+                            print("Try again")
+                            continue
+                        elif closet_choice == 'B':
+                            print("While walking slowly out of the parkour, no motion detector went of.")
+                            print("Yararis and Monkvano: Yahhh, lets go to popsy Bob Monkey")
+                            lvl1_outer_loop = False
+                            break
+                        break
+                    break
+                elif table_choice == 'B':
+                    print("While walking slowly out of the parkour, no motion detector went of.")
+                    print("Yararis and Monkvano: Yahhh, lets go to popsy Bob Monkey")
+                    lvl1_outer_loop = False
+                    break
+                break
+            break
+        else:
+            print("Invalid choice. Please select A or B.\n")
+
+print("""After Jararis and Monkvano successfully completed the obstacle course, they arrived at the door of Bob Monkey's abode.
+They knocked, and they could hear these words: "I'm just a Buffalo Soldier
+In the heart of America. Stolen from Africa, brought to America.\n 
+
+Jararis then asked, "How can I reach planet Earth?" Bob Monkey explained that he unfortunately couldn't remember the 
+coordinates due to his dementia. However, he knew a Jamaican friend who might have the information. He offered them a 
+submarine and pointed towards the other side of the mountain where a waterfall was located. Bob Monkey advised, 
+"Follow the waterfall and the path beyond to reach Aqualandia."
+""")
 
 #Level 7: Otoh Gunga 
 print("As you are going deeper and deeper into the ocean you start to see some lights down there.")
