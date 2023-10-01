@@ -196,12 +196,7 @@ riddles = {
 answers = {
     'easy': 'zebra',
     'medium': 'cow',
-    'difficult': ["name", "your name", "my name", "a name", "advice",
-                  "education", "time", "last name", "dna",
-                  "manners", "influence", "reputation",
-                  "surname", "genes", "culture",
-                  "legacy", "traditions", "heritage",
-                  "knowledge", "example", "experience", "support", "legacy"]
+    'difficult': 'X'
 }
 
 
@@ -680,6 +675,12 @@ The ship's door opened, and I found myself face to face with aliens who had abdu
 I was hit and lost consciousness.\n                                        """)
 
 os.system('cls' if os.name == 'nt' else 'clear')
+
+slow_text_print(".............................")
+slow_text_print("Guess what, The third riddle was literally impossible to guess.")
+slow_text_print("We wanted to waste your time, stupid monkey XD")
+slow_text_print("                                       XD                       XD               ")
+
   
 
 #Level 2: Alien ship
