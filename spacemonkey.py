@@ -655,8 +655,10 @@ print("With a heart full of gratitude, I boarded my spaceship and soared into th
 print("And so, my adventure continued as I ventured into the depths of the universe, heading back to earth!!\n")
 
 print("""The journey to Earth was expected to take 14 days.
-After 2 days of tending to ship duties and relaxing, something unexpected happened.
-I noticed a peculiar, compelling light that seemed to pull my ship upwards.
+After 2 days of tending to ship duties and relaxing, something unexpected happened. 
+I looked at the navigation and it said that the estimated time is still 14 days to Earth.
+There was a malfunction in the navigation. I was heading somewhere else. Suddenly I felt a strange vibration in the ship.
+I noticed a peculiar, compelling light pulling my ship upwards.
 My spaceship's engines struggled against the force of this strange light, but it was too powerful. 
 Before I knew it, I was being drawn into a massive alien spacecraft.
 The ship's door opened, and I found myself face to face with aliens who had abducted me.
