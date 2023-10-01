@@ -26,12 +26,6 @@ while True:
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-max_fuel = 100
-max_health = 100
-
-fuel = max_fuel
-health = max_health
-
 #Level 1: Unknown planet
 print(
     """Jararis was a special trained monkey that can talk and who was trained to go to space.
@@ -281,7 +275,7 @@ while True:
     print("""But when I told him about the riddles by the bridge.
 He said the following I can help you with the riddles, but first, I need a favor. 
 Can you get one of the following things: toilet paper, green apple, cigarette or my glasses.
-Find it for me, and I'll provide you with the answers to the riddles""")
+Find it for me, and I'll provide you with the answers to the riddles.""")
     break
 
 while True:
@@ -310,16 +304,16 @@ while lvl1_outer_loop:
         question_toilet = input("Your choice (A or B): ").capitalize()
 
         if question_toilet == 'A':
-            print("There is a closet here and a barbecue set.")
+            print("\nThere is a closet here and a barbecue set.")
             while True:
                 print("A: Should I look in the closet")
                 print("B: Should I look in the barbecue set")
                 closet_choice = input("Your choice (A or B): ").capitalize()
                 if closet_choice == 'A':
-                    print("Ahhhh, a crazy black doll!")
+                    print("\nAhhhh, a crazy black doll!")
                     continue
                 elif closet_choice == 'B':
-                    print("Yes, there it is! We finally found the toilet paper. Let's head back to Jango.")
+                    print("\nYes, there it is! We finally found the toilet paper. Let's head back to Jango.")
                     print("finally after you got tho jango and gave his stuff.He helped you open the barrier.")
                     lvl1_outer_loop = False
                     break
@@ -327,23 +321,23 @@ while lvl1_outer_loop:
             break
 
         elif question_toilet == 'B':
-            print("Wow, there is a toilet here but no paper. Let's go to the table.")
+            print("\nWow, there is a toilet here but no paper. Let's go to the table.")
             while True:
                 print("A: Look in the area of the table")
                 print("B: Check the tent")
                 table_choice = input("Your choice (A or B): ").capitalize()
                 if table_choice == 'A':
-                    print("There is a closet here and a barbecue set.")
+                    print("\nThere is a closet here and a barbecue set.")
                     while True:
                         print("A: Should I look in the closet")
                         print("B: Should I look in the barbecue set")
                         closet_choice = input("Your choice (A or B): ").capitalize()
                         if closet_choice == 'A':
-                            print("Ahhhh, a crazy black doll!")
+                            print("\nAhhhh, a crazy black doll!")
                             continue
                         elif closet_choice == 'B':
                             print(
-                                "Yes, there it is! We finally found the toilet paper. Let's head back to Jango.")
+                                "\nYes, there it is! We finally found the toilet paper. Let's head back to Jango.")
                             print("finally after you got tho jango and gave his stuff.He helped you open the barrier.")
 
                             lvl1_outer_loop = False
@@ -351,7 +345,7 @@ while lvl1_outer_loop:
                         break
                     break
                 elif table_choice == 'B':
-                    print("He he, I finally found this toilet paper!")
+                    print("\nHe he, I finally found this toilet paper!")
                     print("finally after you got tho jango and gave his stuff.He helped you open the barrier.")
 
                     lvl1_outer_loop = False
@@ -366,6 +360,8 @@ while lvl1_outer_loop:
         print("You explore the forest and spot an apple tree in the distance.")
         print("As you approach the tree, you find a delicious green apple.")
         print("You pick the apple and head back to Jango.")
+        print("finally after you got to jango and gave his stuff.He helped you open the barrier.")
+
         lvl1_outer_loop = False
         c = """After you found the Green apple that jango needed, he opened the barrier for you."""
         break
@@ -378,17 +374,17 @@ while lvl1_outer_loop:
         question_glasses = input("Your choice (A or B): ").capitalize()
 
         if question_glasses == 'A':
-            print("There is a house and a barn.")
+            print("\nThere is a house and a barn.")
             while True:
                 print("A: Should I look in the house.")
                 print("B: Should I look in the barn.")
                 closet_choice = input("Your choice (A or B): ").capitalize()
                 if closet_choice == 'A':
-                    print("Ahhh, f**k I see a huge dog for the house!")
+                    print("\nAhhh, f**k I see a huge dog for the house!")
                     print("No way I will go there.")
                     continue
                 elif closet_choice == 'B':
-                    print("Yes, there it is! We finally found the glasses. Let's head back to Jango.")
+                    print("\nYes, there it is! We finally found the glasses. Let's head back to Jango.")
                     print("finally after you got to jango and gave his stuff.He helped you open the barrier.")
                     lvl1_outer_loop = False
                     break
@@ -396,24 +392,24 @@ while lvl1_outer_loop:
             break
 
         elif question_glasses == 'B':
-            print("Jararis: nahh i see spooky shit there and no banana there.")
+            print("\nJararis: nahh i see spooky shit there and no banana there.")
             while True:
                 print("A:Hmmm, left is good ")
-                print("B:Oei oei, I take the right path.")
+                print("B:Right is to scary! I'm a wimp!")
                 table_choice = input("Your choice (A or B): ").capitalize()
                 if table_choice == 'A':
-                    print("There is a house and a barn here")
+                    print("\nThere is a house and a barn here")
                     while True:
                         print("A: Should I look in the house.")
                         print("B: Should I look in the barn.")
                         closet_choice = input("Your choice (A or B): ").capitalize()
                         if closet_choice == 'A':
-                            print("Ahhh, f**k I see a huge dog for the house.")
+                            print("\nAhhh, f**k I see a huge dog for the house.")
                             print("Nah now way I'm going there!")
                             continue
                         elif closet_choice == 'B':
                             print(
-                                "Yes, there it is! We finally found the glasses. Let's head back to Jango.")
+                                "\nYes, there it is! We finally found the glasses. Let's head back to Jango.")
                             print("finally after you got to jango and gave his stuff.He helped you open the barrier.")
 
                             lvl1_outer_loop = False
@@ -421,7 +417,7 @@ while lvl1_outer_loop:
                         break
                     break
                 elif table_choice == 'B':
-                    print("He he, I finally found this stupid glasses!")
+                    print("\nHe he, I finally found this stupid glasses!")
                     print("finally after you got to jango and gave his stuff.He helped you open the barrier.")
                     lvl1_outer_loop = False
                     break
@@ -437,17 +433,17 @@ while lvl1_outer_loop:
         question_glasses = input("Your choice (A or B): ").capitalize()
 
         if question_glasses == 'A':
-            print("jararis: Wow this is high.")
+            print("\njararis: Wow this is high.")
             print("I think I see a bird's nest. ")
             while True:
                 print("A: Lets go climb higher.")
                 print("B: Go to the bird nest.")
                 closet_choice = input("Your choice (A or B): ").capitalize()
                 if closet_choice == 'A':
-                    print("You misjudged your steps, now you going to fall down Stupid Monkey. ")
+                    print("\nYou misjudged your steps, now you going to fall down Stupid Monkey.Try again ")
                     continue
                 elif closet_choice == 'B':
-                    print("Yes, there it is! We finally found the cigarette in the nest.Let's head back to Jango.")
+                    print("\nYes, there it is! We finally found the cigarette in the nest.Let's head back to Jango.")
                     print("finally after you got to jango and gave his stuff.He helped you open the barrier.")
 
                     lvl1_outer_loop = False
@@ -456,30 +452,30 @@ while lvl1_outer_loop:
             break
 
         elif question_glasses == 'B':
-            print("Jararis: Ahh I a freaking spider bit my little monkey while peeing.")
+            print("\nJararis: Ahh I a freaking spider bit my little monkey while peeing.")
             while True:
                 print("A:Quickly climb up the tree to explore the area. ")
                 print("B:Pee on the three.")
                 table_choice = input("Your choice (A or B): ").capitalize()
                 if table_choice == 'A':
-                    print("I see a bird nest")
+                    print("\nI see a bird nest")
                     while True:
                         print("A:Lets go climb higher.")
                         print("B:Go to the bird nest.")
                         closet_choice = input("Your choice (A or B): ").capitalize()
                         if closet_choice == 'A':
-                            print("You misjudged your steps, now you going to fall down Stupid Monkey")
+                            print("\nYou misjudged your steps, now you going to fall down Stupid Monkey")
                             continue
                         elif closet_choice == 'B':
                             print(
-                                "Yes, there it is! We finally found the cigarette. Let's head back to Jango.")
+                                "\nYes, there it is! We finally found the cigarette. Let's head back to Jango.")
                             print("finally after you got to jango and gave his stuff.He helped you open the barrier.")
                             lvl1_outer_loop = False
                             break
                         break
                     break
                 elif table_choice == 'B':
-                    print("He he, I finally found this stupid cigarette"
+                    print("\nHe he, I finally found this stupid cigarette"
                           "!")
                     print("finally after you got tho jango and gave his stuff.He helped you open the barrier.")
 
@@ -488,10 +484,10 @@ while lvl1_outer_loop:
                 break
             break
         else:
-            print("Invalid choice. Please select A or B.")
+            print("Invalid choice. Please select A or B.\n")
 
 bridge = ("""Jararis: Yes we dit it!!
-Now we can get al of the ship-stuff back and repair the ship\n.
+Now we can get al of the ship-stuff back and repair the ship.\n
 After working for hours jararis finally repaired the ship with his repair kit.
 But he realised that he got no fuel to fly.
 In his quest for fuel, Jararis explored the planet further.
@@ -502,10 +498,11 @@ As he stepped inside, the temple seemed to come alive, narrating the tale of the
 an extraordinary fruit with unmatched energy that can be used as fuel for the space-ship.
 """)
 print(bridge)
-b = ("""Intrigued by the temple's message, Jararis proceeded further and encountered a road.
-There was a men at the end of the road. the men was very happy to see someone enter his temple. Because nobody had entered in a long time.
+b = ("""Intrigued by the temple's message, Jararis proceeded further and encountered a road in the temple.
+There was a men at the end of the road in the temple.The men was very happy to see someone enter his temple.
+Because nobody had entered in a long time.
 He offered jararis to play a game.
-if you would like to play the game with me then I will hand you a super banana.
+If you would like to play the game with me then I will hand you a super banana.
 """)
 print(b)
 while True:
@@ -651,7 +648,7 @@ while True:
     if play_again != "yes":
         print("\nWe need to play this game to win the super banana!\n")
 
-print("Finally, after what seemed like an eternity, we got all the things we need to go out of this planet")
+print("Finally, after what seemed like an eternity, we got all the things we need to go out of this planet.")
 print("My spaceship was ready.")
 print("I bid farewell to the Forest of Riddles, a place that had tested my problem solving skills.")
 print("With a heart full of gratitude, I boarded my spaceship and soared into the cosmic unknown.")
@@ -664,6 +661,7 @@ My spaceship's engines struggled against the force of this strange light, but it
 Before I knew it, I was being drawn into a massive alien spacecraft.
 The ship's door opened, and I found myself face to face with aliens who had abducted me.
 I was hit and lost consciousness.""")
+
   
 
 #Level 2: Alien ship
