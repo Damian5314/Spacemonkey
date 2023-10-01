@@ -1080,7 +1080,71 @@ while True:
 
 print("After a lot of walking and swinging you reached Monkvano's mother. The Monkey Queen.")
 print("Monkey Queen: Well well well little Monkvano is back and he brought a little friend with him.")
-print("Monkvano: Hello mother. I am not ")
+print("Monkvano: Hello mother. I am not here to make amends.")
+print("Monkey Queen: Ok son. What do you want?")
+print("Monkvano: Can you help me and Jararis to get to earth.")
+print("Monkey Queen: If you want help, your monkey friend must first beat me at coconut throwing.")
+
+while True:
+    print("A: Ok let's play queen.")
+    print("B: No I don't want to play games.")
+    lvl5_question_three = input("").capitalize()
+
+    if lvl5_question_three == "A":
+        break
+
+    elif lvl5_question_three == "B":
+        print("Monkey Queen: Then I won't help you monkeys.")
+        print("Do you even want to get home???")
+
+player_score = 0
+available_coconuts = 10
+
+print("Welcome to the Coconut Toss Challenge!")
+print("You are competing against the Monkey Queen to see who can toss coconuts into baskets more accurately.")
+
+while available_coconuts > 0:
+    print("\nAvailable Coconuts:", available_coconuts)
+    print("Jararis Score:", player_score)
+
+    while True:
+        try:
+            toss_distance = int(input("Enter the toss distance (in meters, between 5 and 20): "))
+            if 5 <= toss_distance <= 20:
+                break
+            else:
+                print("Please enter a distance between 5 and 20 meters.")
+        except ValueError:
+            print("Invalid input. Enter a number between 5 and 20.")
+
+    monkey_toss_distance = random.randint(5, 20)
+
+    if abs(toss_distance - monkey_toss_distance) < 3:
+        print("You and the Monkey Queen both made accurate tosses!")
+    elif toss_distance < monkey_toss_distance:
+        print("The Monkey Queen made a better toss and scored a point!")
+    else:
+        print("You made a better toss and scored a point!")
+
+    available_coconuts -= 1
+
+    if toss_distance > monkey_toss_distance:
+        player_score += 1
+
+print("\nGame Over!")
+print("Jararis Score:", player_score)
+print("Monkey Queen's Score:", 10 - player_score)
+
+while True:
+    if player_score >= 5:
+        print("Congratulations! You win the Coconut Toss Challenge.")
+        break
+    else:
+        print("The Monkey Queen wins this time. Better luck next time!")
+
+print("Monkey Queen: You are lucky...")
+print("Monkey Queen: I dont know how to get to earth but I know someone who does.")
+print("Monkey Queen: He lives on Dwarfmania.")
 
 #Level 6: Dwarfmania
 
