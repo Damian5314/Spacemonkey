@@ -569,8 +569,11 @@ while True:
 
     elif lvl5_question_two == "B":
         print("Monkvano: Then I am not taking you to her.")
+        print("Maybe you should help him because he tried to help you.")
 
-print("")
+print("After a lot of walking and swinging you reached Monkvano's mother. The Monkey Queen.")
+print("Monkey Queen: Well well well little Monkvano is back and he brought a little friend with him.")
+print("Monkvano: Hello mother. I am not ")
 
 #Level 6: Dwarfmania
 
