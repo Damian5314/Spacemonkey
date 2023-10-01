@@ -30,7 +30,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print(
     """Jararis was a specially trained monkey that can talk and who was trained to go to space.
 One day he was needed for a space mission to get a special rock to save humanity but when he finally got the item,
-A asteroid hit his ship and he crashed down on an unknown planet.\n""")
+An asteroid hit his ship and he crashed down on an unknown planet.\n""")
 print("""Jararis: Huh, where am I? 
 My head is pounding, and my vision is blurry. I recall flashes of alarm signals and sudden turbulence. 
 The last memory I have is looking out the window of my spaceship as I crashed. 
@@ -1364,7 +1364,7 @@ while lvl1_outer_loop:
         else:
             print("Invalid choice. Please select A or B.\n")
 
-print("""After Jararis and Monkvano successfully completed the obstacle course, they arrived at the door of Bob Monkey's house.
+slow_text_print("""After Jararis and Monkvano successfully completed the obstacle course, they arrived at the door of Bob Monkey's house.
 They knocked, and they could hear these words: "I'm just a Buffalo Soldier
 In the heart of America. Stolen from Africa, brought to America.
 Jararis:Hmmm this song sounds familiar.\n 
@@ -1376,7 +1376,7 @@ submarine and pointed towards the other side of the mountain where a waterfall w
 """)
 
 #Level 7: Otoh Gunga 
-print("""
+slow_text_print("""
 As they ventured deeper into the ocean, captivating lights started to illuminate the watery depths. At a certain 
 point, they entered a passage, and upon passing through it, they were greeted by an astonishing sight - a realm 
 filled with breathtaking underwater houses and awe-inspiring, indescribable structures. After a while, they guided 
