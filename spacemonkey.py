@@ -1290,7 +1290,7 @@ while lvl1_outer_loop:
                         elif closet_choice == 'B':
                             print("Nice job, you almost died of poison")
                             print(
-                                "Jararis and Monavano: We were to sexy to get seduced. Lets go to the sexy old Bob "
+                                "Jararis and Monavano: We were too sexy to get seduced. Let's go to the sexy old Bob "
                                 "Monkey")
                             lvl1_outer_loop = False
                             break
@@ -1364,12 +1364,12 @@ while lvl1_outer_loop:
         else:
             print("Invalid choice. Please select A or B.\n")
 
-print("""After Jararis and Monkvano successfully completed the obstacle course, they arrived at the door of Bob Monkey's abode.
+print("""After Jararis and Monkvano successfully completed the obstacle course, they arrived at the door of Bob Monkey's house.
 They knocked, and they could hear these words: "I'm just a Buffalo Soldier
 In the heart of America. Stolen from Africa, brought to America.\n 
 
 Jararis then asked, "How can I reach planet Earth?" Bob Monkey explained that he unfortunately couldn't remember the 
-coordinates due to his dementia. However, he knew a Jamaican friend who might have the information. He offered them a 
+coordinates due to his dementia. However, he knew a Jamaican friend: Yara Larissa who might have the information. He offered them a 
 submarine and pointed towards the other side of the mountain where a waterfall was located. Bob Monkey advised, 
 "Follow the waterfall and the path beyond to reach Aqualandia."
 """)
