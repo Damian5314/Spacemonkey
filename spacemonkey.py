@@ -148,23 +148,23 @@ word, dream, solution, trust, horse, code, habit, bar.\n""")
         print('Lararis:Ahh i am so hungry\n')
 
 print("""Jararis: Feeling energized after enjoying the delicious bananas, I knew I had to get back on track.
-It reminds me of a friend Elias , he is also back on track.""")
+It reminds me of a friend Elias, he is also back on track.""")
 print("I needed to find the missing parts of my spaceship scattered across the island.")
 print("Equipped with determination and a belly full of bananas, I ventured deeper into the forest.\n")
 
 print("The forest was vast and mysterious. Tall trees and dense vegetation made it challenging to navigate.")
 print("But I was determent. I knew my spaceship parts were somewhere out here, waiting to be found.")
 
-print("""After hours of searching, I stumbled upon a unusual clearing in the forest.
-In the middle of the clearing lay a important repair kit and my navigation of my ship.
-But the problem was how can i get there. Because I saw only a bridge connecting to the clearing      
+print("""After hours of searching, I stumbled upon an unusual clearing in the forest.
+In the middle of the clearing lay an important repair kit and the navigation of my ship.
+But the problem was how can I get there. Because I saw only a bridge connecting to the clearing      
       \n""")
 
 print("""jararis: As I approached the bridge, I noticed a massive barrier blocking the way.
 It seemed impossible to proceed.
 Upon closer inspection, I discovered a control panel with three slots for riddles.
 To raise the barrier and access the bridge, I had to solve three riddles: an easy riddle, a medium riddle, 
-and a difficult riddle or find a man in the forest named Jango  that now the answers of the riddles.
+and a difficult riddle, or find a man in the forest named Jango  that now the answers of the riddles.
 The fate of my journey depended on my wit and the answers I could provide.
 I took a deep breath, ready to face the challenge.\n""")
 
@@ -266,7 +266,7 @@ while True:
         print("")
 
     print(
-        "Jararis: I see the dense trees and the dimming light make it an "
+        "Jararis: I see the dense trees and the dimming light makes it an "
         "eerie journey.")
     print("After a while, I hear rustling in the bushes and encounter a man who introduces himself as Jango.")
     print("Jararis: He was a men with three eyes.")
@@ -486,20 +486,20 @@ while lvl1_outer_loop:
         else:
             print("Invalid choice. Please select A or B.\n")
 
-bridge = ("""Jararis: Yes we dit it!!
-Now we can get al of the ship-stuff back and repair the ship.\n
+bridge = ("""Jararis: Yes we did it!!
+Now we can get all of the ship stuff back and repair the ship.\n
 After working for hours jararis finally repaired the ship with his repair kit.
-But he realised that he got no fuel to fly.
+But he realized that he got no fuel to fly.
 In his quest for fuel, Jararis explored the planet further.
 As he walked through the dense forest, he stumbled upon peculiar markings on the trees.
 These markings seemed to be a clue leading to a temple.\n
 Eager to find fuel, Jararis followed the markings deep into the forest, leading him to a mysterious temple.
 As he stepped inside, the temple seemed to come alive, narrating the tale of the legendary Super Special Banan, 
-an extraordinary fruit with unmatched energy that can be used as fuel for the space-ship.
+an extraordinary fruit with unmatched energy that can be used as fuel for the spaceship.
 """)
 print(bridge)
 b = ("""Intrigued by the temple's message, Jararis proceeded further and encountered a road in the temple.
-There was a men at the end of the road in the temple.The men was very happy to see someone enter his temple.
+There was a man at the end of the road in the temple. The man was very happy to see someone enter his temple.
 Because nobody had entered in a long time.
 He offered jararis to play a game.
 If you would like to play the game with me then I will hand you a super banana.
@@ -695,7 +695,7 @@ while True:
                 break
 
             elif Lvl2_Question_Two_One == "B":
-                print("You succesfully choke him to death,\nAllowing you to grab his keys and silently sneak of the Ship")
+                print("You successfully choke him to death,\nAllowing you to grab his keys and silently sneak of the Ship")
                 break
 
             else:
@@ -781,7 +781,7 @@ while outer_loop:
         Lvl3_Question_TwoA = input("").capitalize()
         while True:
             if Lvl3_Question_TwoA == "D":
-                print("Well arent you a lucky monkey :D")
+                print("Well aren't you a lucky monkey :D")
                 print("The lasers turned off!")
                 outer_loop = False
                 break
@@ -1018,7 +1018,7 @@ while Sixth_outer_loop:
     while True:
         if Lvl4_Question_Two == "A":
             print("Jararis: Do you know how to get back home? I really need to get back home!")
-            print("Monkvano: Of course my fellow monkey brother, we have to help eachother out ain't that right")
+            print("Monkvano: Of course my fellow monkey brother, we have to help each other out ain't that right")
             print("Jararis: Could you try to keep me out of sight of those scary Alien Guards though, I think they don't really like me...")
             print("Monkvano: Oh yeah same for some reason I've been getting chased around all day")
             print("Monkvano: I think there's a criminal monkey on Elysium Prime which they're trying to catch right now")
@@ -1246,7 +1246,7 @@ print("Jararis: wow my best friend just died and I could not save him. Now I nee
 print("Let's go home...Rotterdam...")
 
 #Level 9: Rotterdam
-print("You finally arived in Rotterdam South after a long journey. You are so close to the end")
+print("You finally arrived in Rotterdam South after a long journey. You are so close to the end")
 print("In the distance you see someone walking towards you.")
 print("It's 2 euro man!!!")
 print("He immediately asked you if you have 2 euros")
