@@ -1375,7 +1375,22 @@ submarine and pointed towards the other side of the mountain where a waterfall w
 """)
 
 #Level 7: Otoh Gunga 
-print("As you are going deeper and deeper into the ocean you start to see some lights down there.")
+print("""
+As they ventured deeper into the ocean, captivating lights started to illuminate the watery depths. At a certain 
+point, they entered a passage, and upon passing through it, they were greeted by an astonishing sight - a realm 
+filled with breathtaking underwater houses and awe-inspiring, indescribable structures. After a while, they guided 
+their submarine into one of these mesmerizing structures, and the water in the chamber was drained.\n
+
+A person appeared in the room as the submarine hatch opened, asking, "Can I assist you?"
+Jararis requested help to reach Yara Larissa. 
+Upon reaching Yara, they informed her that Bob had referred them, seeking the coordinates to Earth. After sharing the 
+coordinates, Yara graciously presented them with a unique spaceship she had designed, capable of traversing both 
+underwater and in the skies.\n
+ 
+ She offered this as a token of gratitude since Bob Monkey had once saved her life, 
+and considering their connection to Bob, she was more than willing to provide the ship.
+Now armed with the coordinates and a remarkable vessel, Monkvano and Jararis set off on their journey to Earth.
+""")
 
 #Level 8: Jamaica
 print("After a save landing you have finally arrived back on earth, but it looks a bit weird...")
