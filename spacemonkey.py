@@ -121,13 +121,13 @@ while play_count < 4:
     bananas_fallen = False
 
     while True:
-        slow_text_print("\nQuestion 1:", question_1)
+        slow_text_print("\nQuestion 1:"+ question_1)
         user_answer_1 = input("Your answer for question 1: ").strip().lower()
 
-        slow_text_print("\nQuestion 2:", question_2)
+        slow_text_print("\nQuestion 2:"+ question_2)
         user_answer_2 = input("Your answer for question 2: ").strip().lower()
 
-        slow_text_print("\nQuestion 3:", question_3)
+        slow_text_print("\nQuestion 3:"+ question_3)
         user_answer_3 = input("Your answer for question 3: ").lower()
 
         correct_answers = 0
@@ -602,9 +602,9 @@ def play_hangman():
     slow_text_print("Try to guess the word related to bananas, space and animals.")
 
     while attempts > 0:
-        slow_text_print("\nAttempts left:", attempts)
-        slow_text_print("Guessed letters:", ' '.join(guessed_letters) if guessed_letters else "None")
-        slow_text_print("Word:", ' '.join(word_display))
+        slow_text_print("\nAttempts left:"+ str(attempts))
+        slow_text_print("Guessed letters:"+ ' '.join(guessed_letters) if guessed_letters else "None")
+        slow_text_print("Word:"+ ' '.join(word_display))
 
         hangman_idx = 8 - attempts
         if hangman_idx >= 0 and hangman_idx < len(hangman_art):
@@ -627,7 +627,7 @@ def play_hangman():
                 guessed_letters.append(guess)
         elif len(guess) == len(word_to_guess) and guess.isalpha():  # Guessing the whole word
             if guess == word_to_guess:
-                slow_text_print("Congratulations! You guessed the word:", word_to_guess)
+                slow_text_print("Congratulations! You guessed the word:"+ word_to_guess)
                 return True
             else:
                 slow_text_print("Wrong guess!")
@@ -637,10 +637,10 @@ def play_hangman():
             slow_text_print("Invalid input. Please enter a valid letter or the whole word.")
 
         if "_" not in word_display:
-            slow_text_print("Congratulations! You guessed the word:", word_to_guess)
+            slow_text_print("Congratulations! You guessed the word:"+ word_to_guess)
             return True
 
-    slow_text_print("You ran out of attempts. The word was:", word_to_guess)
+    slow_text_print("You ran out of attempts. The word was:"+ word_to_guess)
     return False
 
 
@@ -1073,7 +1073,6 @@ while Sixth_outer_loop:
     slow_text_print("A: Yes")
     slow_text_print("B: No")
     Lvl4_Question_Two = input("").capitalize()
-    os.system('cls' if os.name == 'nt' else 'clear')
     while True:
         if Lvl4_Question_Two == "A":
             slow_text_print("Jararis: Do you know how to get back home? I really need to get back home!")
@@ -1445,14 +1444,14 @@ while True:
     os.system('cls' if os.name == 'nt' else 'clear')
 
     if lvl8_question_one == "A":
-        slow_text_print("Djoemma: bommmbaaaclaaaatttt. I will answer fi question if you solve me riddle bossman.")
+        slow_text_print("Agwe: bommmbaaaclaaaatttt. I will answer fi question if you solve me riddle bossman.")
         slow_text_print("A: Tell me the riddle")
         slow_text_print("B: Nevermind I will try to find out my self")
         lvl8_question_two = input("").capitalize()
         os.system('cls' if os.name == 'nt' else 'clear')
         
         if lvl8_question_two == "A":
-            slow_text_print("Djoemma: Alright listen here.")
+            slow_text_print("Agwe: Alright listen here.")
             slow_text_print("""I'm a legend of music, with rhythm so grand,
                     In Jamaica, my roots firmly stand.
                     I sing of freedom, love, and good vibes,
@@ -1490,7 +1489,7 @@ while True:
             break
 
         elif lvl8_question_two == "B":
-            slow_text_print("Djoemma: Nah wrong choice bossy")
+            slow_text_print("Agwe: Nah wrong choice bossy")
             slow_text_print("*BAM* *BAM*")
             slow_text_print("Jararis: Oh no Monkvano got shot!!!")
             slow_text_print("What will you do?")
@@ -1508,7 +1507,7 @@ while True:
             break
 
     elif lvl8_question_one == "B":
-        slow_text_print("Djoemma: Alright bossy.")
+        slow_text_print("Agwe: Alright bossy.")
         slow_text_print("While you're walking you notice you find yourself in a bad neighbourhood.")
         slow_text_print("You hear people yelling and running away.")
         slow_text_print("*BAM* *BAM*")
