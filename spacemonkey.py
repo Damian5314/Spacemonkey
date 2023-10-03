@@ -33,7 +33,7 @@ slow_text_print(
 One day he was needed for a space mission to get a special rock to save humanity but when he finally got the item,
 A astroid hit his ship and he crashed down on a unknown planet.\n                                                                            """)
 
-os.system('cls' if os.name == 'nt' else 'clear')
+print("\n")
 
 slow_text_print("""Jararis: Huh, where am I? 
 My head is pounding, and my vision is blurry. I recall flashes of alarm signals and sudden turbulence. 
@@ -46,7 +46,6 @@ I must find ways to protect myself and explore what this new world has to offer.
 I need to go as soon as possible from this planet to save humanity!!
 The adventure begins.\n                                                                                                                       """)
 
-os.system('cls' if os.name == 'nt' else 'clear')
 
 while True:
     slow_text_print("What should I do?")
@@ -63,8 +62,6 @@ while True:
 slow_text_print("You look around and see that you're on a different planet.")
 slow_text_print("Your spaceship is also broken and you must find a way to fix it.")
 
-os.system('cls' if os.name == 'nt' else 'clear')
-
 while True:
     slow_text_print("Which way should I go?")
     slow_text_print("A: Let's check out the forest.")
@@ -79,23 +76,19 @@ while True:
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-slow_text_print("When entering the forest , there was a bord that Jararis did not see : Forest of riddles!")
-slow_text_print("""Jararis:The forest is like a giant playground filled with towering trees, so tall they seem to touch the sky.
+print("When entering the forest , there was a bord that Jararis did not see : Forest of riddles!\n")
+print("""Jararis: The forest is like a giant playground filled with towering trees, so tall they seem to touch the sky.
 It smells like wet earth after rain, a refreshing scent. 
 There are flowers everywhere, some as big as my head! 
 There are flowers of all colors—red, yellow, blue—all over the place. It's like a rainbow on the ground.
 \n                                                                                                           """)
 
-os.system('cls' if os.name == 'nt' else 'clear')
-
-slow_text_print("""Jararis: As I ventured through the lush forest, my eyes were drawn to a towering banana tree.
+print("""Jararis: As I ventured through the lush forest, my eyes were drawn to a towering banana tree.
 Its slender trunk reached up into the sky, and at the top, a cluster of banana hung. 
 These bananas were enormous, larger than any I had ever come across in my life.                       
 I felt a mix of excitement and hunger.
 I wanted to taste the delicious banana and savor the sweet taste of it. 
 However, the bananas seemed unreachable, swaying high above the ground.\n                                                                        """)
-
-os.system('cls' if os.name == 'nt' else 'clear')
 
 slow_text_print("""Beside the tree, I noticed a weathered wooden sign. 
 It was weathered and had some faded writing.
@@ -176,15 +169,13 @@ But the problem was how can i get there. Because I saw only a bridge connecting 
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-slow_text_print("""jararis: As I approached the bridge, I noticed a massive barrier blocking the way.
+print("""jararis: As I approached the bridge, I noticed a massive barrier blocking the way.
 It seemed impossible to proceed.
 Upon closer inspection, I discovered a control panel with three slots for riddles.
 To raise the barrier and access the bridge, I had to solve three riddles: an easy riddle, a medium riddle, 
 and a difficult riddle or find a man in the forest named Jango  that now the answers of the riddles.
 The fate of my journey depended on my wit and the answers I could provide.
 I took a deep breath, ready to face the challenge.\n                                                                """)
-
-os.system('cls' if os.name == 'nt' else 'clear')
 
 # yeahh tog
 riddles = {
@@ -635,6 +626,7 @@ def play_hangman():
                 guessed_letters.append(guess)
         else:
             slow_text_print("Invalid input. Please enter a valid letter or the whole word.")
+            
 
         if "_" not in word_display:
             slow_text_print("Congratulations! You guessed the word:"+ word_to_guess)
@@ -1567,7 +1559,7 @@ while True:
         break
 
 slow_text_print("You finally found Djoemma, he's chewing on some rat meat.")
-slow_text_print("Hey Djoemma can you help me find the way back to my base?")
+slow_text_print("Jararis: Hey Djoemma can you help me find the way back to my base?")
 slow_text_print("Djoemma: Hello brother. Ofcourse I can help you but first you need to play rock paper scissors with me until you win.")
 
 while True:
@@ -1621,7 +1613,7 @@ a loud alarm suddenly blares throughout the base, red warning lights flashing al
 Jararis is left standing there, clutching the precious rock, as the ground shakes from the impact of the attack. 
 The fate of the base, the rock, and Jararis himself hang in the balance. Will he be able to protect the rock and the base from this unexpected threat? 
 The adventure is far from over, and Jararis faces a new, dangerous challenge.\n                                                           """)
-    os.system('cls' if os.name == 'nt' else 'clear')
+    
           
 elif Lvl3_Question_One == "B":
     slow_text_print("""As Jararis stands in the secret space station base, relieved that he has secured the rock, he suddenly feels a cold shiver down his spine. 
@@ -1632,11 +1624,11 @@ The fate of humanity hangs in the balance, and Jararis is now faced with a gut-w
 
 Desperation takes over as he contemplates the possibility of having to return to that perilous planet to retrieve the rock. 
 The weight of his failure and the uncertainty of the rock's whereabouts leave him in a state of despair.""")
-    os.system('cls' if os.name == 'nt' else 'clear')
+
 
 slow_text_print("To be continued...\n                      ")
 
-os.system('cls' if os.name == 'nt' else 'clear')
+
 
 #The end
 slow_text_print("Thank you for playing Space Monkey! Feel free to play again ;)")
